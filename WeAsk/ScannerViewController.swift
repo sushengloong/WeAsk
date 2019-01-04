@@ -16,7 +16,7 @@ class ScannerViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    @IBAction func onAddButtonTapped(_ sender: UIBarButtonItem) {
+    @IBAction func onAddButtonTapped(_ sender: UIButton) {
         let scannerVC = ImageScannerController()
         scannerVC.imageScannerDelegate = self
         present(scannerVC, animated: true)
