@@ -4,7 +4,7 @@ import SwiftyTesseract
 
 class ScannerViewController: UIViewController {
     
-    let operationQueue = OperationQueue()
+    var questions: [String] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,6 +15,18 @@ class ScannerViewController: UIViewController {
         let scannerVC = ImageScannerController()
         scannerVC.imageScannerDelegate = self
         present(scannerVC, animated: true)
+    }
+}
+
+extension ScannerViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return questions.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "QuestionCell", for: indexPath) as! QuestionTableViewCell
+        cell.questionTextView.text = questions[indexPath.row]
+        return cell
     }
 }
 
@@ -36,7 +48,6 @@ extension ScannerViewController: ImageScannerControllerDelegate {
     }
     
     func imageScannerControllerDidCancel(_ scanner: ImageScannerController) {
-        print("cancel!")
         scanner.dismiss(animated: true)
     }
     
