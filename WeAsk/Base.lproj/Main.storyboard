@@ -28,7 +28,11 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="WeAsk" id="2WH-KY-lhd">
-                                        <barButtonItem key="rightBarButtonItem" title="Start" id="kIA-Ja-QJg"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Start" id="kIA-Ja-QJg">
+                                            <connections>
+                                                <action selector="onStartButtonTapped:" destination="BYZ-38-t0r" id="Gev-EJ-ea2"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -136,6 +140,41 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YZ3-uw-sqq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1605.5999999999999" y="26.53673163418291"/>
+        </scene>
+        <!--Questions View Controller-->
+        <scene sceneID="30W-I7-PgE">
+            <objects>
+                <viewController storyboardIdentifier="QuestionsVC" id="OtT-hv-tww" customClass="QuestionsViewController" customModule="AskAnything" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9bp-C7-LMz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Is it possible to inspire people to care more about their work? How?" translatesAutoresizingMaskIntoConstraints="NO" id="W5Z-MU-PbS">
+                                <rect key="frame" x="0.0" y="52" width="375" height="460"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="460" id="mf1-Vw-X9X"/>
+                                </constraints>
+                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <fontDescription key="fontDescription" name="Merriweather-Light" family="Merriweather" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="W5Z-MU-PbS" firstAttribute="top" secondItem="dxy-sr-6cb" secondAttribute="top" constant="32" id="DWH-LV-hVV"/>
+                            <constraint firstItem="W5Z-MU-PbS" firstAttribute="leading" secondItem="dxy-sr-6cb" secondAttribute="leading" id="ag3-pG-gKC"/>
+                            <constraint firstItem="W5Z-MU-PbS" firstAttribute="trailing" secondItem="dxy-sr-6cb" secondAttribute="trailing" id="lcc-Bd-Z0l"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dxy-sr-6cb"/>
+                    </view>
+                    <connections>
+                        <outlet property="questionTextView" destination="W5Z-MU-PbS" id="rL0-nu-58T"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qtS-8q-GDM" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1196" y="840"/>
         </scene>
     </scenes>
 </document>

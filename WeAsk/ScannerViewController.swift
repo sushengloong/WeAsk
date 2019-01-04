@@ -21,6 +21,13 @@ class ScannerViewController: UIViewController {
         scannerVC.imageScannerDelegate = self
         present(scannerVC, animated: true)
     }
+
+    @IBAction func onStartButtonTapped(_ sender: UIBarButtonItem) {
+        let questionsVC = UIStoryboard(name: "Main", bundle: nil)
+            .instantiateViewController(withIdentifier: "QuestionsVC") as! QuestionsViewController
+        questionsVC.questions = questions
+        self.present(questionsVC, animated: true)
+    }
 }
 
 extension ScannerViewController: ScannerDelegate {
