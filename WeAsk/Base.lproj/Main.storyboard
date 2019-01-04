@@ -62,7 +62,18 @@
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j4d-Ph-RQg">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <items>
-                                    <navigationItem title="Edit" id="fF3-Q1-XVu"/>
+                                    <navigationItem title="Edit" id="fF3-Q1-XVu">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="IB7-Se-CNs">
+                                            <connections>
+                                                <action selector="onCancelButtonTapped:" destination="EdZ-Aw-puz" id="bho-5e-okb"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="save" id="VQx-Bh-ele">
+                                            <connections>
+                                                <action selector="onSaveButtonTapped:" destination="EdZ-Aw-puz" id="hTz-UL-WZw"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                         </subviews>

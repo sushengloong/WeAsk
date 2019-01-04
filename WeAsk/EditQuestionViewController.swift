@@ -13,6 +13,14 @@ class EditQuestionViewController: UIViewController {
         questionTextView?.text = question
     }
     
+    @IBAction func onSaveButtonTapped(_ sender: UIBarButtonItem) {
+        print(questionTextView.text)
+        self.dismiss(animated: true)
+    }
+
+    @IBAction func onCancelButtonTapped(_ sender: UIBarButtonItem) {
+        self.dismiss(animated: true)
+    }
 
     /*
     // MARK: - Navigation
