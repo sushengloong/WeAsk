@@ -1,0 +1,1792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C03EBA18754E57DD9AE10BBAB10CAB /* Transformable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F96BA4C226F42D22E01CD5695F9BAAB /* Transformable.swift */; };
+		035D47331A076A453312EFAE3B8D5E56 /* pnglibconf.h in Headers */ = {isa = PBXBuildFile; fileRef = A532CCCF0542885C108F083124D0EA57 /* pnglibconf.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		06AD9369597E1477ABCAD149067F7F09 /* reconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E1A8F110E94625E2A197CA2FE278509 /* reconfig.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		07A1761D17773674194AA6B7E35DAA7C /* tesscallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 11E48DC5CAC54763FA466C13ED30A4CD /* tesscallback.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		07B54E04EA2D8E556B230A9E967CB1EC /* CaptureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC41A849E996939EADB513FDFCB095C7 /* CaptureSession.swift */; };
+		07CACD33BDAF783C323FB1C8E147F7DF /* Pods-WeAskUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B97B6D41CF1313C1EF3B0D0F07C61D94 /* Pods-WeAskUITests-dummy.m */; };
+		07E1F3AFFE6EF7FD64312A50961D7D3D /* dotproductsse.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DD594930CCD6A0CF4126E60B75B545D /* dotproductsse.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		08C4A199BFD5F7C173742FCEDD0976D6 /* jerror.h in Headers */ = {isa = PBXBuildFile; fileRef = E344D270FD7ED4844508A5433DA4F3CC /* jerror.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		090D40C3160EF763746A00ECD7E602FA /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = B4ABE772BB34048C9A7CEE54D5244F64 /* platform.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0B51A4185364B04CD5246018F554ADD0 /* bmf.h in Headers */ = {isa = PBXBuildFile; fileRef = 5837CDCC29658817C27540504AC19C3F /* bmf.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0BEB8208384CCAF53F7816E30FFDB7AF /* CIImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24AACE8A3671A4D076129A9B203DBB4 /* CIImage+Utils.swift */; };
+		0D93A6E1836F081A0FAD268B45D3100F /* watershed.h in Headers */ = {isa = PBXBuildFile; fileRef = 4117593033BA616EE62536DDA51253FB /* watershed.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0E2F07C3306648538D1B8FA6A7D997EA /* arrayaccess.h in Headers */ = {isa = PBXBuildFile; fileRef = 648C04A90E791DE9931E7805226B9C4B /* arrayaccess.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0FE595B759E336834C11BFBE0A44B814 /* list.h in Headers */ = {isa = PBXBuildFile; fileRef = 14914796940936F990729C62CAAB430A /* list.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		12E9CA5C113A5D007761CABAC7B5987E /* enhance@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEAB9B9261E07796F8A26BF79CD140BC /* enhance@3x.png */; };
+		1442A5EC06FD27FCEBBE2D7103AEDD4B /* simddetect.h in Headers */ = {isa = PBXBuildFile; fileRef = 873B20668FE353644D5F68D3DE96C51B /* simddetect.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		149ED017127ABDA013C7BE514F65C54C /* tiffconf.h in Headers */ = {isa = PBXBuildFile; fileRef = E85CA84EC3F5FFBBEA331A3960D6F503 /* tiffconf.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		14DBFA38DBEE24DF27F6856FFB4A1AEE /* leptwin.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BBFBFB10FE013211752A43B39E670EA /* leptwin.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		15E2D3B4C74BD70DB43A96272835EEE1 /* flash.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB7FE9D3F91C21726D2D6A16C7C89B1 /* flash.png */; };
+		16537A0C79A3784A3A6A17699BABE362 /* parallel.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E453CD02BF08C8E2008B8AF6948F55 /* parallel.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		178A96D633D04850EF36383535E76E9F /* CGPoint+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47536EB400C7A04DE62D586B37917535 /* CGPoint+Utils.swift */; };
+		1921B61D2F93A2C87999DC9FB92AA526 /* WeScan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CA490200BE7047C7ED3CE0C8DD2576 /* WeScan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A0CE1323B67CCA872A28ED6AD1A5AAF /* thresholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F7B8F8F4B7A9680DD2C9E7CF5DE577A /* thresholder.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1AC45D08F3D9E1BB27FFB92302BD1106 /* CaptureSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD021B55CECA6449A14A5A18901BF487 /* CaptureSessionManager.swift */; };
+		1CF4CCE5DACC4F4DAC9601A784727957 /* rbtree.h in Headers */ = {isa = PBXBuildFile; fileRef = EF3248AD61B0D4C746B33711FC461E53 /* rbtree.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		202AAF2EC501CF3DACE1A0F52B3AB257 /* Pods-WeAskUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31EA698ED24D88F949B44904A6BCC123 /* Pods-WeAskUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		212382C7C2FD25CE62A5328A67DA317E /* network.h in Headers */ = {isa = PBXBuildFile; fileRef = CF6553D7850E7C5C9CC4D2101AAC6969 /* network.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22007F6D0C3F7026929E1CACD2A5C978 /* lstmtrainer.h in Headers */ = {isa = PBXBuildFile; fileRef = BF5F2B3965DEC6614F17963F7A3F30CF /* lstmtrainer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		24444FB714947F168A1C1F083F1761C8 /* resultiterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 08CFF338FFF07E0252E62E3EF4EC5757 /* resultiterator.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		24AE9CFCCA48760E9ED0D1F9DE7F1F1B /* WeScan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87162D6D61DFFD4F23620EB168E07FEE /* WeScan-dummy.m */; };
+		2A9E76564B8C18636CA3037EE615AD42 /* TesseractVariableName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A5853E8BA7C03AE89746587A780450 /* TesseractVariableName.swift */; };
+		2B8885433A4DCF74233A2B20F179156D /* jconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 4177DC3CC9B5AD1F9DEC7015C53DBD8D /* jconfig.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2DF3DD0CE7784825A14B50E313F6CDEE /* enhance@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A09071EBA5BAB3D2B1937F7F6ADA8514 /* enhance@2x.png */; };
+		2E0309345D6A5C6108E33CAB174045E3 /* Bundle+pathToTrainedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39E12B81566ED27880D0E523E5F05C4 /* Bundle+pathToTrainedData.swift */; };
+		308E328C03D517F51A0E6C773776E93F /* recog.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D34213CC5BF191FDB841ADFE2397AF6 /* recog.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		32EB9A2B2BA26B4EF7EDDEADBA9C52E9 /* flashUnavailable@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B44783D8A0BADE1796BD6905050BF3BF /* flashUnavailable@3x.png */; };
+		338798901331B4930D9FC2620CE8F34E /* ImageScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708F27FB5448359C36053D42B7461DFD /* ImageScannerController.swift */; };
+		33F3808CC19529DAC1CD26635E8D5025 /* dewarp.h in Headers */ = {isa = PBXBuildFile; fileRef = A1960849EB5CCF11F8A26AFBCAFB865D /* dewarp.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		36EE3E6304C73F9B5CBAFE929A6E8BBE /* host.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C450169B389CDC2A7FED21D0EC2F807 /* host.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		37F7DE8051368C373B12E39778A5763B /* recodebeam.h in Headers */ = {isa = PBXBuildFile; fileRef = 474DADA2DDBAD78C81EE0B768F12C6F2 /* recodebeam.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		386A2D06575FF9C5FB494B5B05CEDB95 /* stringcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9512C50F67F94469A4D617192E90F7D8 /* stringcode.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		38D2A7555CBD8B7C56E4E0F721E55EDE /* SwiftyTesseract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B3FDBD62C1A87A374B8B5544BF3A6C /* SwiftyTesseract.swift */; };
+		39995E97D1297DCB6B618A24F4C0CCD2 /* ltrresultiterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F0752049BCC29F4FDE82749942C00B7 /* ltrresultiterator.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3AD356D9723D3863F00EA10FEE93132A /* flash@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2401C1BD7F6999D41AE55BBB4AEE06A7 /* flash@3x.png */; };
+		3E11D740AEA426DAD4E08785B1BF12D9 /* jpeglib.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B022A0946BCC8149B5EC118C7E20844 /* jpeglib.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3EECB7C15B241652775070089BD93B3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		3F5F211B1D73512E982790C03991D9B4 /* bilateral.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E8AE8E8F23DEBC827A155160F380C7A /* bilateral.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3F88F705A265FF3D42BB30BF470343FA /* CIRectangleDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C277933AFC868913F14367CD2730C721 /* CIRectangleDetector.swift */; };
+		3FC54E745580C7012C37494EBC8FF866 /* endianness.h in Headers */ = {isa = PBXBuildFile; fileRef = 13F378B3872592FD66FE0CCED73F0764 /* endianness.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		42B1E68C64D81FF495A538412F9997DA /* unicharmap.h in Headers */ = {isa = PBXBuildFile; fileRef = A77DACDC80CEA4B433AD027EB35BF24D /* unicharmap.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		453718FF5E6C40CAB3B0E4183C2C0EB0 /* enhance.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F7BF0B1E4A080458D75B5C38699F89C /* enhance.png */; };
+		46BB573539FF917494DA68B168B024C7 /* errcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D69072FE103EF1C829D143037EEEBDD /* errcode.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		477F83787FF1A395C0184038E58EB847 /* pix.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B78942AAA0C989FE08761649CA0266C /* pix.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		48945EE7058268FAFB90059291A65E30 /* environ.h in Headers */ = {isa = PBXBuildFile; fileRef = C09F6B8ADC70F6349180779DEB11F440 /* environ.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4AB7A042B2DD8CDF0BDBA5C9318113B7 /* morph.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B6BFC9A5032B621C594AB3D680C8275 /* morph.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4BACE16F1529E607D24A98ADDCC2AD46 /* UIImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6E09BE5866F6A6FC55AC76150D4D22 /* UIImage+Utils.swift */; };
+		4F2F2D05E0134D854C14F04155350950 /* fullyconnected.h in Headers */ = {isa = PBXBuildFile; fileRef = 820962D8262AF054A116D9814486EB5B /* fullyconnected.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4F623C3E056118D9C82C56B30C08EF4C /* unicharset.h in Headers */ = {isa = PBXBuildFile; fileRef = 738CBB26D616B14262EA2D1B50805E6F /* unicharset.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5198DCAFB710F3F96AC54BF9217B0951 /* QuadrilateralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B05AF12E1E37904A32A0AC0E242490 /* QuadrilateralView.swift */; };
+		51A27E5B5B801665B53753C8501D0498 /* reversed.h in Headers */ = {isa = PBXBuildFile; fileRef = 12E9843F1B876E111BF95BD59AB27C8A /* reversed.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		54A3FC1C7EDFF39F9D9BC3FCE5B3D5B1 /* tiff.h in Headers */ = {isa = PBXBuildFile; fileRef = 63521B6602C93BD99EEDDCE36D7C4480 /* tiff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		54D4D6DD7D2D0643D3B9004A1B66CB16 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C1EAA73E958651F2EB7294B053A29B /* String+Extensions.swift */; };
+		605B3A4B27EAE3DCF6D6CF9E8333F14F /* Pods-WeAskTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06AE1C3D2AA7459246294E0CA632BFCD /* Pods-WeAskTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60A257DA2D052B1E533FCB15D76D48CA /* maxpool.h in Headers */ = {isa = PBXBuildFile; fileRef = 55CDC46922C75DEC36D3F7E6DE3A71F4 /* maxpool.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		60DD3436B5929E4CCDC17F89E970558C /* SwiftyTesseractError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75AC70A08913CE02B86F9898380E62F /* SwiftyTesseractError.swift */; };
+		6131B0DA7E5540A6E4F07997651AF3B4 /* sudoku.h in Headers */ = {isa = PBXBuildFile; fileRef = 832EFA0EF7541385E54092A2698BD9D0 /* sudoku.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		693D8E572DB75DF6A5005B93057760D8 /* pageiterator.h in Headers */ = {isa = PBXBuildFile; fileRef = EBA59A74B13A51486E4D37B12FF453AA /* pageiterator.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		694D9C5474FE5D923D9E959660D4EDDC /* regutils.h in Headers */ = {isa = PBXBuildFile; fileRef = CE726E724667A54A4CF1B5289E89F52A /* regutils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		698A0C2E2795EF908727FC8B7C64003F /* RectangleFeaturesFunnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EAC90D3924E7FE1D54CB2F0C2C7289 /* RectangleFeaturesFunnel.swift */; };
+		6B33112E84847C899151F2095E658B9B /* bbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A401271DA3E46F12E3A5ECC1BF3B8B9 /* bbuffer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6F701F830B296E3AEF5E9FF6B5B599BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		7030D4403F37ED135E34ECC53742F094 /* CaptureSession+Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC86CC6DDE62AF1CD4AFC197371B836A /* CaptureSession+Orientation.swift */; };
+		70AB1EC17B98BC75D74A747C7DF10DEC /* WeScan.h in Headers */ = {isa = PBXBuildFile; fileRef = 433744FF929C4253A175CAD1043F58EE /* WeScan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		714C5E758A87FEFACDA078398FF298A1 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA7473777C4E57DD94F1DAE21367EAD /* Error.swift */; };
+		742762E3CFCE7EF1C1EB2E95029216B7 /* genericvector.h in Headers */ = {isa = PBXBuildFile; fileRef = 64BC41E4FC760060F2783F416FFAECA7 /* genericvector.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		745288592D9FCAEC6C78C81B56E7933B /* Pods-WeAskTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6E4795D70411562B360FB808737F04 /* Pods-WeAskTests-dummy.m */; };
+		753312DEF045F449CE0646CEA7C05897 /* params.h in Headers */ = {isa = PBXBuildFile; fileRef = CEFF0D43823662CDCD16AB4DC8605AF3 /* params.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7538ED9F304F4EC068017A74D83A7D64 /* EngineMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0150A4266173875CA30C6367EB9DB15 /* EngineMode.swift */; };
+		761DE696C633E0B06D55F3873E0F8102 /* basedir.h in Headers */ = {isa = PBXBuildFile; fileRef = 3830838A57E99990B88B1753B49C9BDA /* basedir.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7870F6DA35D0E5173BBE129A890C3A57 /* plumbing.h in Headers */ = {isa = PBXBuildFile; fileRef = B20EBA3BA9538E26567A5F09750013CE /* plumbing.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		78DDF0FCA4EC680824B5901E1CB7695D /* intsimdmatrixavx2.h in Headers */ = {isa = PBXBuildFile; fileRef = AA587130BE2DC91110BB4889272D19B3 /* intsimdmatrixavx2.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7A96583B8882FBBC2A35097305D01620 /* allheaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 05839CCEAF098480C7A74BF4AD765AF8 /* allheaders.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7BCBE4085A81394DE1612F936ACAE5EB /* ocrclass.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C22D9BB11892851BF8A80138756C92 /* ocrclass.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7BD77613EC93CF4E9AD0A3954CC48A59 /* strngs.h in Headers */ = {isa = PBXBuildFile; fileRef = 904555B57C5C577620785770C6AAA8B8 /* strngs.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7BDCAE47BC5453DD617456376793267E /* serialis.h in Headers */ = {isa = PBXBuildFile; fileRef = FAE1418B663E280C749B3F57353D4BD5 /* serialis.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7CE928676C5C99FB873514C8E4A2E123 /* ShutterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4ACDD7D171290FE8E9E48FC4AFB995 /* ShutterButton.swift */; };
+		7DDDCF987E7BFC05E4190EA4FDB47001 /* convolve.h in Headers */ = {isa = PBXBuildFile; fileRef = 19F50D93FCF5EB31333785AB7066C557 /* convolve.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7F458612816A68803BE04A3BE1FF03B8 /* Pods-WeAsk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A0D5E68A5F7DB28EBC35320139A6473 /* Pods-WeAsk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		812EC01C3600E0AF0DAD253FC55DD567 /* SwiftyTesseract-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8EB03B719E22A77922BB75E7322FBE3 /* SwiftyTesseract-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81976E2679115C3C9DCC4001DD8F504B /* VisionRectangleDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA024A53EE252515ED23AAABF6955F4 /* VisionRectangleDetector.swift */; };
+		8221093990FC968BA4A51CBDB5593BAA /* baseapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D08026BCA07FFFB9FE5FBDCA158A28D /* baseapi.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		82F1259F4D6D57C7C258176FB20EE6CA /* networkscratch.h in Headers */ = {isa = PBXBuildFile; fileRef = 04012EC0D7FFD1C48AA41CE8D675BADF /* networkscratch.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8543D90B15F22959F28C9088C5C5A0AC /* networkbuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = BEDACFF5479ADF3D5AE591B8DF761621 /* networkbuilder.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		85E7587CD8B7A8025FE739260ACFB44A /* intsimdmatrixsse.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F01970846211801512E441CA680F2AF /* intsimdmatrixsse.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8718B5EBC21823E53BB2317DAFE9DD21 /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FF06C78714EA34A302850C281BE6F1 /* Array+Utils.swift */; };
+		8D0D731DAEAD62D750342B002C509757 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
+		8DDCCE0E836D05EC0C8343CF784E1E4F /* functions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4898DB751C7291703C9D2616FACDC758 /* functions.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		903B56389787B92536167A73DE276D59 /* tess_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 2598D9CD18E807B7DF6DF34389453CCD /* tess_version.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		93CACC6E13EE661FC3F861E12B86410E /* osdetect.h in Headers */ = {isa = PBXBuildFile; fileRef = AD582EBDD6A8248206EDC10F1EABD637 /* osdetect.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		95B6760CF4294BA34F51D0E78F51FD1B /* series.h in Headers */ = {isa = PBXBuildFile; fileRef = DCE692C1D29116B8DEC3DDA473753383 /* series.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9666CC274A20F4D2423CDB11DA01B68F /* unicharcompress.h in Headers */ = {isa = PBXBuildFile; fileRef = 8947B122745AE62F8EAB5E8147E88CAD /* unicharcompress.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		98BD44AB4D1FFC51CCA52593830348B6 /* pngconf.h in Headers */ = {isa = PBXBuildFile; fileRef = A99821BF369E061FC96756B95E320869 /* pngconf.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		98F9D4A3A2AB4371E10E14C3CA246E89 /* RecognitionLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F5DE334081589C7D90D375AF6B2ABA /* RecognitionLanguage.swift */; };
+		997C1332DA222396C2002DA1691E71BA /* bmfdata.h in Headers */ = {isa = PBXBuildFile; fileRef = D02DD6FF0C2EAC2D58C21A72670E15C7 /* bmfdata.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9B24A9C129B43E77C6C0C4692A55A916 /* ccbord.h in Headers */ = {isa = PBXBuildFile; fileRef = 08A5AD5955588B8D42DC1D5225F930C0 /* ccbord.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9C714FCE41AD9E87F9F74FDADAD36C7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		9CC6EE1C52838CA5551C2F0AF29277D3 /* memry.h in Headers */ = {isa = PBXBuildFile; fileRef = 74632B2132BFC8C4F292CF6B3F27A980 /* memry.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9DD7A9EB6FADD5D7D4F0901B453A882E /* unichar.h in Headers */ = {isa = PBXBuildFile; fileRef = BACDB3FE3C0E1D1D1D4E3CDFA04D52E0 /* unichar.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9E0BA1B8F10BAD8C8A9D6323BB2F9CF7 /* intsimdmatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = E6C1BE10A944709D732215DAE06FCFD4 /* intsimdmatrix.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A032BAD5D7C1B5FE3D6DCAA716E4D21C /* static_shape.h in Headers */ = {isa = PBXBuildFile; fileRef = 199859770846E07A6BEC18B9C28658C7 /* static_shape.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A22112B8E37BF068C095287CEDDEA995 /* flashUnavailable.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAC64AF9F9F0AD051E519EA576128F5 /* flashUnavailable.png */; };
+		A25A58C824B8BE20554010908671DC2E /* weightmatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = ED29FEF7F258A22E16E86771E06520D6 /* weightmatrix.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A27A1792733A9F9BF5F32F4F52C2DADB /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546D1BF9FD8F858027B33F63FB60C326 /* ScannerViewController.swift */; };
+		A2E05E8112DF877CF3E781CA6515B69F /* publictypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 33BCEDD0525954C43DE16051F2CB7998 /* publictypes.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A529DD8394E21F2B07470EB472F6275B /* ptra.h in Headers */ = {isa = PBXBuildFile; fileRef = 12C9AA18B0076D4866C777053C14EF66 /* ptra.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A58A4AEDBCC8FBA1A6E0365AD9A84E37 /* array.h in Headers */ = {isa = PBXBuildFile; fileRef = EEEC261B57B9D92060C80C868B455D70 /* array.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AB5BDDE51C903936F68F97515F5E4AF9 /* queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B784B432CC782032D472FA364B0D56A /* queue.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		ADCB258496094E8F1839A51AFE7D29CE /* lstmrecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = EE99EE340C7DC8489C204B7AE63FDEAE /* lstmrecognizer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		ADFD2517FB9772106D5E04F36D28DC35 /* LanguageStringConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC5461CA31D9CB912C336B9C2C51B95 /* LanguageStringConverter.swift */; };
+		AF6C3C32F96D68609A06DC26DE0D93FF /* alltypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FCA19C3DE439C645834D65F79EB810F /* alltypes.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B00E471301B93D8A6405A387AA7A4376 /* apitypes.h in Headers */ = {isa = PBXBuildFile; fileRef = D4412725B3E12A824510D8100D29F6DF /* apitypes.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B057D6AC230F0BF738B8E23890F4AFD3 /* dotproductavx.h in Headers */ = {isa = PBXBuildFile; fileRef = 006EE8BBC2E5FDF7A2F70BF4F48716DF /* dotproductavx.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B19E8E0FF032AE7D0700132F315C0355 /* renderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE30C45E8594023A9B566997A84D056 /* renderer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B2EE9444D2621E6423B42971BAEAA7AE /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = DF34D26044633A19B7EFE54A3D01F03D /* version.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B4D4BF3DC712BF5230D4D3F511D4EC1F /* ndminx.h in Headers */ = {isa = PBXBuildFile; fileRef = FB1B5A0D69EA5FFD73EE09FCB53982F3 /* ndminx.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B79C11FB6534C8CCCA7152F7FE4AC332 /* capi.h in Headers */ = {isa = PBXBuildFile; fileRef = 717E67CF7CC2641E515C4F2263A8FBA0 /* capi.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B7BFC4E4AF165DCD6D8922C9800B7B29 /* imageio.h in Headers */ = {isa = PBXBuildFile; fileRef = 123B97214C7CB0CF901795B538EB3223 /* imageio.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B88FAF19A2C7EF710E0EC04DD3F58668 /* tiffio.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A6C4B2DBD3D146A043B91D1280A2039 /* tiffio.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BA5FB52B7D48956625F1D1F1A96EDD77 /* flash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2EEFD1E8ECB3C5912275BDFFC7F3927 /* flash@2x.png */; };
+		BAAEFA9189C477A5390A80FF69592AAF /* jmorecfg.h in Headers */ = {isa = PBXBuildFile; fileRef = 74D5917B57C07DF110096FA6A8A6FC86 /* jmorecfg.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BC0112B52DB4A60681C3545677CA3D38 /* CGAffineTransform+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B957D635089295717989A0A6BADFAF2 /* CGAffineTransform+Utils.swift */; };
+		BC6A3D5E2204FDA9CF6B562AB0F8C1B4 /* input.h in Headers */ = {isa = PBXBuildFile; fileRef = 5565CDDC0DDABB9550AB2CA4FA06B9FE /* input.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BF46FE3D44A8DD01756CE36CB7949036 /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = EC7F4D8F7CD418D9AE9D047B3FDA7247 /* stack.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C03060947A4AD298A7C8DC1FEABAE84B /* ctc.h in Headers */ = {isa = PBXBuildFile; fileRef = D065F95B9588A826EFA3B62D29C079D6 /* ctc.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C2454CB7B2FFD829BFB143EC1F93F2A5 /* SwiftyTesseract-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 320A7499A7B4EF8EDBB87D0B9165F17D /* SwiftyTesseract-dummy.m */; };
+		C2CCA761417DC742E40B251DD9630954 /* tiffvers.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F71E1C305D7EA0F86B00D736DB17DE2 /* tiffvers.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C39071A2AFFD08A5860797CC7D8BE13D /* flashUnavailable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 149C2806E18515C0ECC005BD4A51E5CC /* flashUnavailable@2x.png */; };
+		C7CC86628E2E9FFE2A0D1F18E3092086 /* AVCaptureVideoOrientation+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6C5D0031AFB73C9E3C54EDE9F3C17 /* AVCaptureVideoOrientation+Utils.swift */; };
+		C914162882945B1D3CF98FCA601D6525 /* bmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 24604ABD5C819A3606820BDDF94118CD /* bmp.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CCC630F510068CBDF3109811220950B3 /* helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 89AEE82CCE6E0E7F60137B0CFEB54999 /* helpers.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CEF3F3381B5FF233A1944C62E943BEE4 /* tfnetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = C5CFBC2C6DB1FA89B349265734D814E2 /* tfnetwork.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CF7CD7251252C99633E381382BEF74A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		D5B6B8ADDEA3A6E02098DD0A5927352A /* CGRect+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF36F4FBFEE95BF73978880BE2BE5F9 /* CGRect+Utils.swift */; };
+		D82A7F4EE9C0CE61A96AED9539F4C4FA /* stridemap.h in Headers */ = {isa = PBXBuildFile; fileRef = F89FF811F89CB76B1B30BF46DFB0A434 /* stridemap.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D96DD52941F3393606E9C95EA3685C05 /* jbclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 588C64C97A76EFEC47DA3FF7B8DE24B3 /* jbclass.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DD2FA148C987C3AFBC204A46DA6AC828 /* EditScanCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8585B8E32F155F73BA4AAB0C6B53DE7F /* EditScanCornerView.swift */; };
+		E06FB2D7E0A6D79B30BD2EBFE544E14F /* Pods-WeAsk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 352C37D628C3DE83B7F5BF2084D656F1 /* Pods-WeAsk-dummy.m */; };
+		E221C555EA1F8D40CDF085DD72B2C771 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E10F03AD59691B6A0E80EB972AAFED5 /* ReviewViewController.swift */; };
+		E23D1836ED14C1B02EBB8C200B581993 /* UIImage+Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B3681CD16E7685CC3454004AAE5DF5 /* UIImage+Orientation.swift */; };
+		E2663507DCBE273E912A86484F15E78E /* SwiftyTesseract.h in Headers */ = {isa = PBXBuildFile; fileRef = FE3FB5881597F0831259BD5EDBDBEFBF /* SwiftyTesseract.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E60FFDD020A11C75E52DC8AE636C7DCC /* EditScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1F10BDE66AFB6439A3E885FFF80B62 /* EditScanViewController.swift */; };
+		E62E4443FDAD9495978BF2776E5547AF /* lstm.h in Headers */ = {isa = PBXBuildFile; fileRef = EC1E0EE9402E355714448CE54D5FAE45 /* lstm.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E7008ED307116AAC40661ADC81F979AC /* gplot.h in Headers */ = {isa = PBXBuildFile; fileRef = C8491138514DCEBEAC775593598F811A /* gplot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EEE3D894C4E266A33E90687ED09AAA08 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E4C770D15BCDAD15BBF4A41341611BB /* Localizable.strings */; };
+		F2426C53836406DF9918697DD48223D7 /* networkio.h in Headers */ = {isa = PBXBuildFile; fileRef = 82C10E7118BA08566AF80E54D2579CA6 /* networkio.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F5E3FA744E8D8C463D754C1F279A61A5 /* fileerr.h in Headers */ = {isa = PBXBuildFile; fileRef = 6072AAE6855553D16775102DE05EBBAC /* fileerr.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F6AB953007E861910E0D1D5616BED03B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		F941B7B97E12162CD07035846AF2391D /* ZoomGestureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4080CF7DDBCF88DAB3F7A79EC73E366C /* ZoomGestureController.swift */; };
+		FA315891AF320BCC8206040FE03C3C9B /* png.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F88F8AA3FC23D20487DA88AFF82A3D4 /* png.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FA5807890088E3A90C17D35D0192CFFA /* readbarcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 35657680617A9271C426B43F77550E73 /* readbarcode.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FB942D869D57778F98B3DE5FD0D925CB /* Quadrilateral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4BEE1A38B38490AF638563A5383B71 /* Quadrilateral.swift */; };
+		FBA42EDD58AA548C565B8C632BD82CB4 /* heap.h in Headers */ = {isa = PBXBuildFile; fileRef = 7262F55B440D1C44747AC787858A16C1 /* heap.h */; settings = {ATTRIBUTES = (Private, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BDB70FB5FFB1A77969A8E13C24CC71C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A098C5A39790BE53BED184F97AE6CBDE;
+			remoteInfo = "Pods-WeAsk";
+		};
+		43796A12A1C7A864826BE7DEBB9C4DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FCC9CCA30FC5C346B1C09B5F37AC6EE;
+			remoteInfo = WeScan;
+		};
+		5FEDB9FCC32FF7EF11CA283E54C17BCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A098C5A39790BE53BED184F97AE6CBDE;
+			remoteInfo = "Pods-WeAsk";
+		};
+		8E08473A3CD7B2EBE52D39E202918F64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19B1AEFD048CAD90D43588593AD80FC5;
+			remoteInfo = SwiftyTesseract;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006EE8BBC2E5FDF7A2F70BF4F48716DF /* dotproductavx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dotproductavx.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/dotproductavx.h; sourceTree = "<group>"; };
+		024427E006406C363BC8A1EAF0156E5A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04012EC0D7FFD1C48AA41CE8D675BADF /* networkscratch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = networkscratch.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/networkscratch.h; sourceTree = "<group>"; };
+		05839CCEAF098480C7A74BF4AD765AF8 /* allheaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = allheaders.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/allheaders.h; sourceTree = "<group>"; };
+		06AE1C3D2AA7459246294E0CA632BFCD /* Pods-WeAskTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeAskTests-umbrella.h"; sourceTree = "<group>"; };
+		08A5AD5955588B8D42DC1D5225F930C0 /* ccbord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ccbord.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/ccbord.h; sourceTree = "<group>"; };
+		08CFF338FFF07E0252E62E3EF4EC5757 /* resultiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = resultiterator.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/resultiterator.h; sourceTree = "<group>"; };
+		0B6BFC9A5032B621C594AB3D680C8275 /* morph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = morph.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/morph.h; sourceTree = "<group>"; };
+		0B78942AAA0C989FE08761649CA0266C /* pix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pix.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/pix.h; sourceTree = "<group>"; };
+		0E1A8F110E94625E2A197CA2FE278509 /* reconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = reconfig.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/reconfig.h; sourceTree = "<group>"; };
+		0E3324CBD868F60E53F62EEE287220AB /* Pods-WeAskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeAskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0F01970846211801512E441CA680F2AF /* intsimdmatrixsse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intsimdmatrixsse.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/intsimdmatrixsse.h; sourceTree = "<group>"; };
+		0F531D2F58390DF2442F59362EBB7755 /* Pods-WeAsk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeAsk.release.xcconfig"; sourceTree = "<group>"; };
+		0FA024A53EE252515ED23AAABF6955F4 /* VisionRectangleDetector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisionRectangleDetector.swift; path = WeScan/Common/VisionRectangleDetector.swift; sourceTree = "<group>"; };
+		10364B3AC2FAD4BBA3FB5BDAEA5D24AB /* Pods-WeAsk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeAsk.debug.xcconfig"; sourceTree = "<group>"; };
+		11E48DC5CAC54763FA466C13ED30A4CD /* tesscallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tesscallback.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/tesscallback.h; sourceTree = "<group>"; };
+		123B97214C7CB0CF901795B538EB3223 /* imageio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imageio.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/imageio.h; sourceTree = "<group>"; };
+		12C9AA18B0076D4866C777053C14EF66 /* ptra.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ptra.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/ptra.h; sourceTree = "<group>"; };
+		12CA490200BE7047C7ED3CE0C8DD2576 /* WeScan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WeScan-umbrella.h"; sourceTree = "<group>"; };
+		12E9843F1B876E111BF95BD59AB27C8A /* reversed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = reversed.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/reversed.h; sourceTree = "<group>"; };
+		13F378B3872592FD66FE0CCED73F0764 /* endianness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = endianness.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/endianness.h; sourceTree = "<group>"; };
+		14914796940936F990729C62CAAB430A /* list.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = list.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/list.h; sourceTree = "<group>"; };
+		149C2806E18515C0ECC005BD4A51E5CC /* flashUnavailable@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flashUnavailable@2x.png"; path = "WeScan/Assets/flashUnavailable@2x.png"; sourceTree = "<group>"; };
+		199859770846E07A6BEC18B9C28658C7 /* static_shape.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = static_shape.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/static_shape.h; sourceTree = "<group>"; };
+		19F50D93FCF5EB31333785AB7066C557 /* convolve.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = convolve.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/convolve.h; sourceTree = "<group>"; };
+		1A3959631F00459266A29AECEE407E5C /* libtesseract.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libtesseract.a; path = SwiftyTesseract/SwiftyTesseract/dependencies/lib/libtesseract.a; sourceTree = "<group>"; };
+		1A4ACDD7D171290FE8E9E48FC4AFB995 /* ShutterButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShutterButton.swift; path = WeScan/Scan/ShutterButton.swift; sourceTree = "<group>"; };
+		1F7BF0B1E4A080458D75B5C38699F89C /* enhance.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = enhance.png; path = WeScan/Assets/enhance.png; sourceTree = "<group>"; };
+		2401C1BD7F6999D41AE55BBB4AEE06A7 /* flash@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flash@3x.png"; path = "WeScan/Assets/flash@3x.png"; sourceTree = "<group>"; };
+		24604ABD5C819A3606820BDDF94118CD /* bmp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bmp.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/bmp.h; sourceTree = "<group>"; };
+		2469FF5BD4F9BAE6A3EB092103EC40E2 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		24B807B8C40435171AD8B11ACA916706 /* Pods-WeAsk-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeAsk-acknowledgements.plist"; sourceTree = "<group>"; };
+		2598D9CD18E807B7DF6DF34389453CCD /* tess_version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tess_version.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/tess_version.h; sourceTree = "<group>"; };
+		25D5EDCC03079ADE4C3245FC175178C5 /* Pods_WeAsk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WeAsk.framework; path = "Pods-WeAsk.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FD391C59BF23342C6C807352EE0290 /* Pods-WeAskUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeAskUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2A401271DA3E46F12E3A5ECC1BF3B8B9 /* bbuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bbuffer.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/bbuffer.h; sourceTree = "<group>"; };
+		2B784B432CC782032D472FA364B0D56A /* queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = queue.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/queue.h; sourceTree = "<group>"; };
+		2C1F3C43AA5B202F9D0FD3A48E455027 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C450169B389CDC2A7FED21D0EC2F807 /* host.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = host.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/host.h; sourceTree = "<group>"; };
+		2E10F03AD59691B6A0E80EB972AAFED5 /* ReviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReviewViewController.swift; path = WeScan/Review/ReviewViewController.swift; sourceTree = "<group>"; };
+		2EC52B3809F6D1D064E6D6D5297949F8 /* Pods-WeAskUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeAskUITests-frameworks.sh"; sourceTree = "<group>"; };
+		2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		301AD95CAA60D21669D6B0C974A90193 /* Pods-WeAskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeAskTests.release.xcconfig"; sourceTree = "<group>"; };
+		30B3681CD16E7685CC3454004AAE5DF5 /* UIImage+Orientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Orientation.swift"; path = "WeScan/Extensions/UIImage+Orientation.swift"; sourceTree = "<group>"; };
+		30B7BD2AF5A96C29B6B680ED2CC02FCB /* libtiff.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libtiff.a; path = SwiftyTesseract/SwiftyTesseract/dependencies/lib/libtiff.a; sourceTree = "<group>"; };
+		31EA698ED24D88F949B44904A6BCC123 /* Pods-WeAskUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeAskUITests-umbrella.h"; sourceTree = "<group>"; };
+		320A7499A7B4EF8EDBB87D0B9165F17D /* SwiftyTesseract-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyTesseract-dummy.m"; sourceTree = "<group>"; };
+		335ECE46D9D931B4D6CF6B506CEAAE2D /* libpng.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libpng.a; path = SwiftyTesseract/SwiftyTesseract/dependencies/lib/libpng.a; sourceTree = "<group>"; };
+		33BCEDD0525954C43DE16051F2CB7998 /* publictypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = publictypes.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/publictypes.h; sourceTree = "<group>"; };
+		352C37D628C3DE83B7F5BF2084D656F1 /* Pods-WeAsk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeAsk-dummy.m"; sourceTree = "<group>"; };
+		35657680617A9271C426B43F77550E73 /* readbarcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = readbarcode.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/readbarcode.h; sourceTree = "<group>"; };
+		36B3FDBD62C1A87A374B8B5544BF3A6C /* SwiftyTesseract.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyTesseract.swift; path = SwiftyTesseract/SwiftyTesseract/SwiftyTesseract.swift; sourceTree = "<group>"; };
+		36C1EAA73E958651F2EB7294B053A29B /* String+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extensions.swift"; path = "SwiftyTesseract/SwiftyTesseract/Extensions/String+Extensions.swift"; sourceTree = "<group>"; };
+		3830838A57E99990B88B1753B49C9BDA /* basedir.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = basedir.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/basedir.h; sourceTree = "<group>"; };
+		3A86730474E75CB6FDE4C388B73612A3 /* Pods-WeAskUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeAskUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3BB7FE9D3F91C21726D2D6A16C7C89B1 /* flash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = flash.png; path = WeScan/Assets/flash.png; sourceTree = "<group>"; };
+		3F88F8AA3FC23D20487DA88AFF82A3D4 /* png.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = png.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/png.h; sourceTree = "<group>"; };
+		4080CF7DDBCF88DAB3F7A79EC73E366C /* ZoomGestureController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZoomGestureController.swift; path = WeScan/Edit/ZoomGestureController.swift; sourceTree = "<group>"; };
+		4117593033BA616EE62536DDA51253FB /* watershed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = watershed.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/watershed.h; sourceTree = "<group>"; };
+		4177DC3CC9B5AD1F9DEC7015C53DBD8D /* jconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jconfig.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/jconfig.h; sourceTree = "<group>"; };
+		41D2F8465C3F7760B1190DDCA79C4F27 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		433744FF929C4253A175CAD1043F58EE /* WeScan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeScan.h; path = WeScan/WeScan.h; sourceTree = "<group>"; };
+		44170E1A9F9EF6CC91BA48EA6510247B /* Pods-WeAsk-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeAsk-acknowledgements.markdown"; sourceTree = "<group>"; };
+		474DADA2DDBAD78C81EE0B768F12C6F2 /* recodebeam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = recodebeam.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/recodebeam.h; sourceTree = "<group>"; };
+		47536EB400C7A04DE62D586B37917535 /* CGPoint+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGPoint+Utils.swift"; path = "WeScan/Extensions/CGPoint+Utils.swift"; sourceTree = "<group>"; };
+		4783C23D7D232CC857938DC0419CE258 /* Pods-WeAskTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WeAskTests.modulemap"; sourceTree = "<group>"; };
+		4808859932415DC24561BC34F2797DED /* WeScan.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WeScan.xcconfig; sourceTree = "<group>"; };
+		4898DB751C7291703C9D2616FACDC758 /* functions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = functions.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/functions.h; sourceTree = "<group>"; };
+		49FF06C78714EA34A302850C281BE6F1 /* Array+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Utils.swift"; path = "WeScan/Extensions/Array+Utils.swift"; sourceTree = "<group>"; };
+		4AA88CF24144679A18176961759BF117 /* WeScan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WeScan.framework; path = WeScan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6E4795D70411562B360FB808737F04 /* Pods-WeAskTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeAskTests-dummy.m"; sourceTree = "<group>"; };
+		4CFE9118AB20177EE4B008BB845A2379 /* Pods-WeAskTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeAskTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4D34213CC5BF191FDB841ADFE2397AF6 /* recog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = recog.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/recog.h; sourceTree = "<group>"; };
+		546D1BF9FD8F858027B33F63FB60C326 /* ScannerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScannerViewController.swift; path = WeScan/Scan/ScannerViewController.swift; sourceTree = "<group>"; };
+		5565CDDC0DDABB9550AB2CA4FA06B9FE /* input.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = input.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/input.h; sourceTree = "<group>"; };
+		55CDC46922C75DEC36D3F7E6DE3A71F4 /* maxpool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = maxpool.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/maxpool.h; sourceTree = "<group>"; };
+		5837CDCC29658817C27540504AC19C3F /* bmf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bmf.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/bmf.h; sourceTree = "<group>"; };
+		588C64C97A76EFEC47DA3FF7B8DE24B3 /* jbclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jbclass.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/jbclass.h; sourceTree = "<group>"; };
+		5A0A5A7D8A1B9C9FACA3C46A3BB58853 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A0D5E68A5F7DB28EBC35320139A6473 /* Pods-WeAsk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeAsk-umbrella.h"; sourceTree = "<group>"; };
+		5B022A0946BCC8149B5EC118C7E20844 /* jpeglib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jpeglib.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/jpeglib.h; sourceTree = "<group>"; };
+		5B939A2EAD04C67B644524A4B7627004 /* Pods-WeAskUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeAskUITests-resources.sh"; sourceTree = "<group>"; };
+		5DDC8CA19AF457943EEF5C9D0F5CCFB2 /* Pods-WeAsk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WeAsk.modulemap"; sourceTree = "<group>"; };
+		5EC5461CA31D9CB912C336B9C2C51B95 /* LanguageStringConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanguageStringConverter.swift; path = SwiftyTesseract/SwiftyTesseract/Protocols/LanguageStringConverter.swift; sourceTree = "<group>"; };
+		5FF36F4FBFEE95BF73978880BE2BE5F9 /* CGRect+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGRect+Utils.swift"; path = "WeScan/Extensions/CGRect+Utils.swift"; sourceTree = "<group>"; };
+		6072AAE6855553D16775102DE05EBBAC /* fileerr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fileerr.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/fileerr.h; sourceTree = "<group>"; };
+		62B05AF12E1E37904A32A0AC0E242490 /* QuadrilateralView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuadrilateralView.swift; path = WeScan/Common/QuadrilateralView.swift; sourceTree = "<group>"; };
+		63521B6602C93BD99EEDDCE36D7C4480 /* tiff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tiff.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tiff.h; sourceTree = "<group>"; };
+		648C04A90E791DE9931E7805226B9C4B /* arrayaccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = arrayaccess.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/arrayaccess.h; sourceTree = "<group>"; };
+		64BC41E4FC760060F2783F416FFAECA7 /* genericvector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = genericvector.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/genericvector.h; sourceTree = "<group>"; };
+		6C0EAF0422569F8768E92AF33889D898 /* Pods-WeAskTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeAskTests-frameworks.sh"; sourceTree = "<group>"; };
+		6D08026BCA07FFFB9FE5FBDCA158A28D /* baseapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = baseapi.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/baseapi.h; sourceTree = "<group>"; };
+		6DD594930CCD6A0CF4126E60B75B545D /* dotproductsse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dotproductsse.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/dotproductsse.h; sourceTree = "<group>"; };
+		6F7B8F8F4B7A9680DD2C9E7CF5DE577A /* thresholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = thresholder.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/thresholder.h; sourceTree = "<group>"; };
+		708F27FB5448359C36053D42B7461DFD /* ImageScannerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageScannerController.swift; path = WeScan/ImageScannerController.swift; sourceTree = "<group>"; };
+		717E67CF7CC2641E515C4F2263A8FBA0 /* capi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = capi.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/capi.h; sourceTree = "<group>"; };
+		7262F55B440D1C44747AC787858A16C1 /* heap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = heap.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/heap.h; sourceTree = "<group>"; };
+		738CBB26D616B14262EA2D1B50805E6F /* unicharset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unicharset.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/unicharset.h; sourceTree = "<group>"; };
+		74632B2132BFC8C4F292CF6B3F27A980 /* memry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = memry.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/memry.h; sourceTree = "<group>"; };
+		74D5917B57C07DF110096FA6A8A6FC86 /* jmorecfg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jmorecfg.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/jmorecfg.h; sourceTree = "<group>"; };
+		74E404AA6957590324067E330E0EC533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		77A5853E8BA7C03AE89746587A780450 /* TesseractVariableName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TesseractVariableName.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/TesseractVariableName.swift; sourceTree = "<group>"; };
+		7BBFBFB10FE013211752A43B39E670EA /* leptwin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = leptwin.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/leptwin.h; sourceTree = "<group>"; };
+		7C6E09BE5866F6A6FC55AC76150D4D22 /* UIImage+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Utils.swift"; path = "WeScan/Extensions/UIImage+Utils.swift"; sourceTree = "<group>"; };
+		7E4BEE1A38B38490AF638563A5383B71 /* Quadrilateral.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Quadrilateral.swift; path = WeScan/Common/Quadrilateral.swift; sourceTree = "<group>"; };
+		7E8AE8E8F23DEBC827A155160F380C7A /* bilateral.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bilateral.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/bilateral.h; sourceTree = "<group>"; };
+		7F1930D55028D594C9AA9FB115B9CDD6 /* Pods_WeAskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WeAskUITests.framework; path = "Pods-WeAskUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F71E1C305D7EA0F86B00D736DB17DE2 /* tiffvers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tiffvers.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tiffvers.h; sourceTree = "<group>"; };
+		7F96BA4C226F42D22E01CD5695F9BAAB /* Transformable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transformable.swift; path = WeScan/Protocols/Transformable.swift; sourceTree = "<group>"; };
+		820962D8262AF054A116D9814486EB5B /* fullyconnected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fullyconnected.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/fullyconnected.h; sourceTree = "<group>"; };
+		82C10E7118BA08566AF80E54D2579CA6 /* networkio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = networkio.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/networkio.h; sourceTree = "<group>"; };
+		832EFA0EF7541385E54092A2698BD9D0 /* sudoku.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sudoku.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/sudoku.h; sourceTree = "<group>"; };
+		8541163D2B9F2252B6B1A194790E810C /* SwiftyTesseract.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyTesseract.framework; path = SwiftyTesseract.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8585B8E32F155F73BA4AAB0C6B53DE7F /* EditScanCornerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EditScanCornerView.swift; path = WeScan/Common/EditScanCornerView.swift; sourceTree = "<group>"; };
+		85CACD55A6E4C49F5AEB49ECD9F12989 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86609FBCC3AED2C2CAB1E78283DD738A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87162D6D61DFFD4F23620EB168E07FEE /* WeScan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WeScan-dummy.m"; sourceTree = "<group>"; };
+		873B20668FE353644D5F68D3DE96C51B /* simddetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = simddetect.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/simddetect.h; sourceTree = "<group>"; };
+		876C9549FA62E265E69F0E9D9FBBDB3D /* WeScan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WeScan.modulemap; sourceTree = "<group>"; };
+		88841DB6D92B5D9DCF26689F3F6C1B14 /* Pods-WeAskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeAskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8947B122745AE62F8EAB5E8147E88CAD /* unicharcompress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unicharcompress.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/unicharcompress.h; sourceTree = "<group>"; };
+		89AEE82CCE6E0E7F60137B0CFEB54999 /* helpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = helpers.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/helpers.h; sourceTree = "<group>"; };
+		8A6C4B2DBD3D146A043B91D1280A2039 /* tiffio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tiffio.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tiffio.h; sourceTree = "<group>"; };
+		8EE30C45E8594023A9B566997A84D056 /* renderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = renderer.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/renderer.h; sourceTree = "<group>"; };
+		904555B57C5C577620785770C6AAA8B8 /* strngs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strngs.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/strngs.h; sourceTree = "<group>"; };
+		91D72D8252A539CB6BEAF80D1A363B6B /* Pods-WeAskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeAskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93E453CD02BF08C8E2008B8AF6948F55 /* parallel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parallel.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/parallel.h; sourceTree = "<group>"; };
+		9512C50F67F94469A4D617192E90F7D8 /* stringcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stringcode.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/stringcode.h; sourceTree = "<group>"; };
+		96A8288DC5EF9EAC8CCF8BA32B710DFA /* WeScan-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WeScan-prefix.pch"; sourceTree = "<group>"; };
+		99EAC90D3924E7FE1D54CB2F0C2C7289 /* RectangleFeaturesFunnel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RectangleFeaturesFunnel.swift; path = WeScan/Scan/RectangleFeaturesFunnel.swift; sourceTree = "<group>"; };
+		9AB1BA98FFA57AFC49B8948D5F2DA745 /* Pods_WeAskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WeAskTests.framework; path = "Pods-WeAskTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B957D635089295717989A0A6BADFAF2 /* CGAffineTransform+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGAffineTransform+Utils.swift"; path = "WeScan/Extensions/CGAffineTransform+Utils.swift"; sourceTree = "<group>"; };
+		9D69072FE103EF1C829D143037EEEBDD /* errcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = errcode.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/errcode.h; sourceTree = "<group>"; };
+		9F0752049BCC29F4FDE82749942C00B7 /* ltrresultiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ltrresultiterator.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/ltrresultiterator.h; sourceTree = "<group>"; };
+		9FCA19C3DE439C645834D65F79EB810F /* alltypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = alltypes.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/alltypes.h; sourceTree = "<group>"; };
+		A09071EBA5BAB3D2B1937F7F6ADA8514 /* enhance@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "enhance@2x.png"; path = "WeScan/Assets/enhance@2x.png"; sourceTree = "<group>"; };
+		A1960849EB5CCF11F8A26AFBCAFB865D /* dewarp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dewarp.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/dewarp.h; sourceTree = "<group>"; };
+		A532CCCF0542885C108F083124D0EA57 /* pnglibconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pnglibconf.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/pnglibconf.h; sourceTree = "<group>"; };
+		A61FB600450071A63E90440E787AA191 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A6D6C5D0031AFB73C9E3C54EDE9F3C17 /* AVCaptureVideoOrientation+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVCaptureVideoOrientation+Utils.swift"; path = "WeScan/Extensions/AVCaptureVideoOrientation+Utils.swift"; sourceTree = "<group>"; };
+		A77DACDC80CEA4B433AD027EB35BF24D /* unicharmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unicharmap.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/unicharmap.h; sourceTree = "<group>"; };
+		A822602D0246228E9A165B6B5FEFDF28 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A85A27DA9CC8ABB8217578BEDC17916A /* Pods-WeAsk-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeAsk-resources.sh"; sourceTree = "<group>"; };
+		A99821BF369E061FC96756B95E320869 /* pngconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pngconf.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/pngconf.h; sourceTree = "<group>"; };
+		AA587130BE2DC91110BB4889272D19B3 /* intsimdmatrixavx2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intsimdmatrixavx2.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/intsimdmatrixavx2.h; sourceTree = "<group>"; };
+		AC1F10BDE66AFB6439A3E885FFF80B62 /* EditScanViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EditScanViewController.swift; path = WeScan/Edit/EditScanViewController.swift; sourceTree = "<group>"; };
+		AC86CC6DDE62AF1CD4AFC197371B836A /* CaptureSession+Orientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CaptureSession+Orientation.swift"; path = "WeScan/Session/CaptureSession+Orientation.swift"; sourceTree = "<group>"; };
+		AD582EBDD6A8248206EDC10F1EABD637 /* osdetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = osdetect.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/osdetect.h; sourceTree = "<group>"; };
+		AEAB9B9261E07796F8A26BF79CD140BC /* enhance@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "enhance@3x.png"; path = "WeScan/Assets/enhance@3x.png"; sourceTree = "<group>"; };
+		B0F5DE334081589C7D90D375AF6B2ABA /* RecognitionLanguage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecognitionLanguage.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/RecognitionLanguage.swift; sourceTree = "<group>"; };
+		B20EBA3BA9538E26567A5F09750013CE /* plumbing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = plumbing.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/plumbing.h; sourceTree = "<group>"; };
+		B44783D8A0BADE1796BD6905050BF3BF /* flashUnavailable@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flashUnavailable@3x.png"; path = "WeScan/Assets/flashUnavailable@3x.png"; sourceTree = "<group>"; };
+		B4ABE772BB34048C9A7CEE54D5244F64 /* platform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = platform.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/platform.h; sourceTree = "<group>"; };
+		B6347869941AD37D2B7C2F0BE52701FD /* libtiffxx.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libtiffxx.a; path = SwiftyTesseract/SwiftyTesseract/dependencies/lib/libtiffxx.a; sourceTree = "<group>"; };
+		B97B6D41CF1313C1EF3B0D0F07C61D94 /* Pods-WeAskUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeAskUITests-dummy.m"; sourceTree = "<group>"; };
+		BACDB3FE3C0E1D1D1D4E3CDFA04D52E0 /* unichar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unichar.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/unichar.h; sourceTree = "<group>"; };
+		BAEA3ED3ABDAC9D270B9BEAC4109F60F /* SwiftyTesseract-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTesseract-prefix.pch"; sourceTree = "<group>"; };
+		BD021B55CECA6449A14A5A18901BF487 /* CaptureSessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaptureSessionManager.swift; path = WeScan/Scan/CaptureSessionManager.swift; sourceTree = "<group>"; };
+		BD7713215103FF05B41FB4A7967B27E8 /* Pods-WeAskTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeAskTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BEDACFF5479ADF3D5AE591B8DF761621 /* networkbuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = networkbuilder.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/networkbuilder.h; sourceTree = "<group>"; };
+		BF5F2B3965DEC6614F17963F7A3F30CF /* lstmtrainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lstmtrainer.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/lstmtrainer.h; sourceTree = "<group>"; };
+		C09F6B8ADC70F6349180779DEB11F440 /* environ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = environ.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/environ.h; sourceTree = "<group>"; };
+		C24AACE8A3671A4D076129A9B203DBB4 /* CIImage+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CIImage+Utils.swift"; path = "WeScan/Extensions/CIImage+Utils.swift"; sourceTree = "<group>"; };
+		C277933AFC868913F14367CD2730C721 /* CIRectangleDetector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CIRectangleDetector.swift; path = WeScan/Common/CIRectangleDetector.swift; sourceTree = "<group>"; };
+		C5CFBC2C6DB1FA89B349265734D814E2 /* tfnetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tfnetwork.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/tfnetwork.h; sourceTree = "<group>"; };
+		C75CEF5528C0304892BA83223C1AF3DC /* Pods-WeAskTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeAskTests-resources.sh"; sourceTree = "<group>"; };
+		C8491138514DCEBEAC775593598F811A /* gplot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gplot.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/gplot.h; sourceTree = "<group>"; };
+		CBF702D29A3FF79C70580543A0BB14D9 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CE726E724667A54A4CF1B5289E89F52A /* regutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = regutils.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/regutils.h; sourceTree = "<group>"; };
+		CE8CB70060A1EB86B9636E00CCC6A2F4 /* libjpeg.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libjpeg.a; path = SwiftyTesseract/SwiftyTesseract/dependencies/lib/libjpeg.a; sourceTree = "<group>"; };
+		CEFF0D43823662CDCD16AB4DC8605AF3 /* params.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = params.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/params.h; sourceTree = "<group>"; };
+		CF6553D7850E7C5C9CC4D2101AAC6969 /* network.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = network.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/network.h; sourceTree = "<group>"; };
+		CFFC5EA9A52878F83DC6208B366CE3B6 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D0150A4266173875CA30C6367EB9DB15 /* EngineMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EngineMode.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/EngineMode.swift; sourceTree = "<group>"; };
+		D02DD6FF0C2EAC2D58C21A72670E15C7 /* bmfdata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bmfdata.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/bmfdata.h; sourceTree = "<group>"; };
+		D065F95B9588A826EFA3B62D29C079D6 /* ctc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ctc.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/ctc.h; sourceTree = "<group>"; };
+		D2C22D9BB11892851BF8A80138756C92 /* ocrclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocrclass.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/ocrclass.h; sourceTree = "<group>"; };
+		D2EEFD1E8ECB3C5912275BDFFC7F3927 /* flash@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flash@2x.png"; path = "WeScan/Assets/flash@2x.png"; sourceTree = "<group>"; };
+		D39E12B81566ED27880D0E523E5F05C4 /* Bundle+pathToTrainedData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+pathToTrainedData.swift"; path = "SwiftyTesseract/SwiftyTesseract/Extensions/Bundle+pathToTrainedData.swift"; sourceTree = "<group>"; };
+		D4412725B3E12A824510D8100D29F6DF /* apitypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = apitypes.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/apitypes.h; sourceTree = "<group>"; };
+		D75AC70A08913CE02B86F9898380E62F /* SwiftyTesseractError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyTesseractError.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/SwiftyTesseractError.swift; sourceTree = "<group>"; };
+		D8EB03B719E22A77922BB75E7322FBE3 /* SwiftyTesseract-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTesseract-umbrella.h"; sourceTree = "<group>"; };
+		DCE692C1D29116B8DEC3DDA473753383 /* series.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = series.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/series.h; sourceTree = "<group>"; };
+		DEA7473777C4E57DD94F1DAE21367EAD /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = WeScan/Common/Error.swift; sourceTree = "<group>"; };
+		DF34D26044633A19B7EFE54A3D01F03D /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/version.h; sourceTree = "<group>"; };
+		E181568A9198314879E654088B310C27 /* Pods-WeAskUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WeAskUITests.modulemap"; sourceTree = "<group>"; };
+		E344D270FD7ED4844508A5433DA4F3CC /* jerror.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jerror.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/jerror.h; sourceTree = "<group>"; };
+		E6B6C7F68DB0B99A369CFAD31321FDBD /* SwiftyTesseract.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyTesseract.xcconfig; sourceTree = "<group>"; };
+		E6C1BE10A944709D732215DAE06FCFD4 /* intsimdmatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intsimdmatrix.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/intsimdmatrix.h; sourceTree = "<group>"; };
+		E85CA84EC3F5FFBBEA331A3960D6F503 /* tiffconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tiffconf.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tiffconf.h; sourceTree = "<group>"; };
+		EBA59A74B13A51486E4D37B12FF453AA /* pageiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pageiterator.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/pageiterator.h; sourceTree = "<group>"; };
+		EC1E0EE9402E355714448CE54D5FAE45 /* lstm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lstm.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/lstm.h; sourceTree = "<group>"; };
+		EC7F4D8F7CD418D9AE9D047B3FDA7247 /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stack.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/stack.h; sourceTree = "<group>"; };
+		ED29FEF7F258A22E16E86771E06520D6 /* weightmatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = weightmatrix.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/weightmatrix.h; sourceTree = "<group>"; };
+		EE99EE340C7DC8489C204B7AE63FDEAE /* lstmrecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lstmrecognizer.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/lstmrecognizer.h; sourceTree = "<group>"; };
+		EEEC261B57B9D92060C80C868B455D70 /* array.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = array.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/array.h; sourceTree = "<group>"; };
+		EF3248AD61B0D4C746B33711FC461E53 /* rbtree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rbtree.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/leptonica/rbtree.h; sourceTree = "<group>"; };
+		F064D8B7AB252B8A55ECCCD958983C91 /* liblept.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblept.a; path = SwiftyTesseract/SwiftyTesseract/dependencies/lib/liblept.a; sourceTree = "<group>"; };
+		F6C8BA86AFB5AB621639F4E70E58E895 /* SwiftyTesseract.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyTesseract.modulemap; sourceTree = "<group>"; };
+		F89FF811F89CB76B1B30BF46DFB0A434 /* stridemap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stridemap.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/stridemap.h; sourceTree = "<group>"; };
+		FAAC64AF9F9F0AD051E519EA576128F5 /* flashUnavailable.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = flashUnavailable.png; path = WeScan/Assets/flashUnavailable.png; sourceTree = "<group>"; };
+		FAE1418B663E280C749B3F57353D4BD5 /* serialis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = serialis.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/serialis.h; sourceTree = "<group>"; };
+		FB1B5A0D69EA5FFD73EE09FCB53982F3 /* ndminx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ndminx.h; path = SwiftyTesseract/SwiftyTesseract/dependencies/include/tesseract/ndminx.h; sourceTree = "<group>"; };
+		FC41A849E996939EADB513FDFCB095C7 /* CaptureSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaptureSession.swift; path = WeScan/Session/CaptureSession.swift; sourceTree = "<group>"; };
+		FE3FB5881597F0831259BD5EDBDBEFBF /* SwiftyTesseract.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyTesseract.h; path = SwiftyTesseract/SwiftyTesseract/SwiftyTesseract.h; sourceTree = "<group>"; };
+		FE7E1259019D6517CBF6D29AB0FF99F4 /* Pods-WeAsk-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeAsk-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BE3BD59113AE1F4FB56234BC8A18DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7CD7251252C99633E381382BEF74A7 /* Foundation.framework in Frameworks */,
+				8D0D731DAEAD62D750342B002C509757 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F285F7979DDC3317CB2E38E021BA8D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C714FCE41AD9E87F9F74FDADAD36C7D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2ABA19BD76BE161EE9066C89EE35313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6AB953007E861910E0D1D5616BED03B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A989B87BDBC4CAE437934FF84EDC90FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EECB7C15B241652775070089BD93B3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EDB813874DABA1140EE5AF75035E46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F701F830B296E3AEF5E9FF6B5B599BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06CDD10DE71306278CF89108B3036DFD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */,
+				74E404AA6957590324067E330E0EC533 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		20C0CF022194407F3F9025DBEB3F1C21 /* Pods-WeAskTests */ = {
+			isa = PBXGroup;
+			children = (
+				024427E006406C363BC8A1EAF0156E5A /* Info.plist */,
+				4783C23D7D232CC857938DC0419CE258 /* Pods-WeAskTests.modulemap */,
+				BD7713215103FF05B41FB4A7967B27E8 /* Pods-WeAskTests-acknowledgements.markdown */,
+				4CFE9118AB20177EE4B008BB845A2379 /* Pods-WeAskTests-acknowledgements.plist */,
+				4B6E4795D70411562B360FB808737F04 /* Pods-WeAskTests-dummy.m */,
+				6C0EAF0422569F8768E92AF33889D898 /* Pods-WeAskTests-frameworks.sh */,
+				C75CEF5528C0304892BA83223C1AF3DC /* Pods-WeAskTests-resources.sh */,
+				06AE1C3D2AA7459246294E0CA632BFCD /* Pods-WeAskTests-umbrella.h */,
+				0E3324CBD868F60E53F62EEE287220AB /* Pods-WeAskTests.debug.xcconfig */,
+				301AD95CAA60D21669D6B0C974A90193 /* Pods-WeAskTests.release.xcconfig */,
+			);
+			name = "Pods-WeAskTests";
+			path = "Target Support Files/Pods-WeAskTests";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06CDD10DE71306278CF89108B3036DFD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		530D5CD8A4CA8D6C86B758F9935456F8 /* Pods-WeAskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85CACD55A6E4C49F5AEB49ECD9F12989 /* Info.plist */,
+				E181568A9198314879E654088B310C27 /* Pods-WeAskUITests.modulemap */,
+				26FD391C59BF23342C6C807352EE0290 /* Pods-WeAskUITests-acknowledgements.markdown */,
+				3A86730474E75CB6FDE4C388B73612A3 /* Pods-WeAskUITests-acknowledgements.plist */,
+				B97B6D41CF1313C1EF3B0D0F07C61D94 /* Pods-WeAskUITests-dummy.m */,
+				2EC52B3809F6D1D064E6D6D5297949F8 /* Pods-WeAskUITests-frameworks.sh */,
+				5B939A2EAD04C67B644524A4B7627004 /* Pods-WeAskUITests-resources.sh */,
+				31EA698ED24D88F949B44904A6BCC123 /* Pods-WeAskUITests-umbrella.h */,
+				91D72D8252A539CB6BEAF80D1A363B6B /* Pods-WeAskUITests.debug.xcconfig */,
+				88841DB6D92B5D9DCF26689F3F6C1B14 /* Pods-WeAskUITests.release.xcconfig */,
+			);
+			name = "Pods-WeAskUITests";
+			path = "Target Support Files/Pods-WeAskUITests";
+			sourceTree = "<group>";
+		};
+		6243DB6A091CCCDDA2F0E0DA7ED5B8D2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B457918FC3574A9CB265D046C001E969 /* Pods-WeAsk */,
+				20C0CF022194407F3F9025DBEB3F1C21 /* Pods-WeAskTests */,
+				530D5CD8A4CA8D6C86B758F9935456F8 /* Pods-WeAskUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		62C8EF25067CBE915EC9F30E86CC2615 /* SwiftyTesseract */ = {
+			isa = PBXGroup;
+			children = (
+				05839CCEAF098480C7A74BF4AD765AF8 /* allheaders.h */,
+				9FCA19C3DE439C645834D65F79EB810F /* alltypes.h */,
+				D4412725B3E12A824510D8100D29F6DF /* apitypes.h */,
+				EEEC261B57B9D92060C80C868B455D70 /* array.h */,
+				648C04A90E791DE9931E7805226B9C4B /* arrayaccess.h */,
+				6D08026BCA07FFFB9FE5FBDCA158A28D /* baseapi.h */,
+				3830838A57E99990B88B1753B49C9BDA /* basedir.h */,
+				2A401271DA3E46F12E3A5ECC1BF3B8B9 /* bbuffer.h */,
+				7E8AE8E8F23DEBC827A155160F380C7A /* bilateral.h */,
+				5837CDCC29658817C27540504AC19C3F /* bmf.h */,
+				D02DD6FF0C2EAC2D58C21A72670E15C7 /* bmfdata.h */,
+				24604ABD5C819A3606820BDDF94118CD /* bmp.h */,
+				D39E12B81566ED27880D0E523E5F05C4 /* Bundle+pathToTrainedData.swift */,
+				717E67CF7CC2641E515C4F2263A8FBA0 /* capi.h */,
+				08A5AD5955588B8D42DC1D5225F930C0 /* ccbord.h */,
+				19F50D93FCF5EB31333785AB7066C557 /* convolve.h */,
+				D065F95B9588A826EFA3B62D29C079D6 /* ctc.h */,
+				A1960849EB5CCF11F8A26AFBCAFB865D /* dewarp.h */,
+				006EE8BBC2E5FDF7A2F70BF4F48716DF /* dotproductavx.h */,
+				6DD594930CCD6A0CF4126E60B75B545D /* dotproductsse.h */,
+				13F378B3872592FD66FE0CCED73F0764 /* endianness.h */,
+				D0150A4266173875CA30C6367EB9DB15 /* EngineMode.swift */,
+				C09F6B8ADC70F6349180779DEB11F440 /* environ.h */,
+				9D69072FE103EF1C829D143037EEEBDD /* errcode.h */,
+				6072AAE6855553D16775102DE05EBBAC /* fileerr.h */,
+				820962D8262AF054A116D9814486EB5B /* fullyconnected.h */,
+				4898DB751C7291703C9D2616FACDC758 /* functions.h */,
+				64BC41E4FC760060F2783F416FFAECA7 /* genericvector.h */,
+				C8491138514DCEBEAC775593598F811A /* gplot.h */,
+				7262F55B440D1C44747AC787858A16C1 /* heap.h */,
+				89AEE82CCE6E0E7F60137B0CFEB54999 /* helpers.h */,
+				2C450169B389CDC2A7FED21D0EC2F807 /* host.h */,
+				123B97214C7CB0CF901795B538EB3223 /* imageio.h */,
+				5565CDDC0DDABB9550AB2CA4FA06B9FE /* input.h */,
+				E6C1BE10A944709D732215DAE06FCFD4 /* intsimdmatrix.h */,
+				AA587130BE2DC91110BB4889272D19B3 /* intsimdmatrixavx2.h */,
+				0F01970846211801512E441CA680F2AF /* intsimdmatrixsse.h */,
+				588C64C97A76EFEC47DA3FF7B8DE24B3 /* jbclass.h */,
+				4177DC3CC9B5AD1F9DEC7015C53DBD8D /* jconfig.h */,
+				E344D270FD7ED4844508A5433DA4F3CC /* jerror.h */,
+				74D5917B57C07DF110096FA6A8A6FC86 /* jmorecfg.h */,
+				5B022A0946BCC8149B5EC118C7E20844 /* jpeglib.h */,
+				5EC5461CA31D9CB912C336B9C2C51B95 /* LanguageStringConverter.swift */,
+				7BBFBFB10FE013211752A43B39E670EA /* leptwin.h */,
+				14914796940936F990729C62CAAB430A /* list.h */,
+				EC1E0EE9402E355714448CE54D5FAE45 /* lstm.h */,
+				EE99EE340C7DC8489C204B7AE63FDEAE /* lstmrecognizer.h */,
+				BF5F2B3965DEC6614F17963F7A3F30CF /* lstmtrainer.h */,
+				9F0752049BCC29F4FDE82749942C00B7 /* ltrresultiterator.h */,
+				55CDC46922C75DEC36D3F7E6DE3A71F4 /* maxpool.h */,
+				74632B2132BFC8C4F292CF6B3F27A980 /* memry.h */,
+				0B6BFC9A5032B621C594AB3D680C8275 /* morph.h */,
+				FB1B5A0D69EA5FFD73EE09FCB53982F3 /* ndminx.h */,
+				CF6553D7850E7C5C9CC4D2101AAC6969 /* network.h */,
+				BEDACFF5479ADF3D5AE591B8DF761621 /* networkbuilder.h */,
+				82C10E7118BA08566AF80E54D2579CA6 /* networkio.h */,
+				04012EC0D7FFD1C48AA41CE8D675BADF /* networkscratch.h */,
+				D2C22D9BB11892851BF8A80138756C92 /* ocrclass.h */,
+				AD582EBDD6A8248206EDC10F1EABD637 /* osdetect.h */,
+				EBA59A74B13A51486E4D37B12FF453AA /* pageiterator.h */,
+				93E453CD02BF08C8E2008B8AF6948F55 /* parallel.h */,
+				CEFF0D43823662CDCD16AB4DC8605AF3 /* params.h */,
+				0B78942AAA0C989FE08761649CA0266C /* pix.h */,
+				B4ABE772BB34048C9A7CEE54D5244F64 /* platform.h */,
+				B20EBA3BA9538E26567A5F09750013CE /* plumbing.h */,
+				3F88F8AA3FC23D20487DA88AFF82A3D4 /* png.h */,
+				A99821BF369E061FC96756B95E320869 /* pngconf.h */,
+				A532CCCF0542885C108F083124D0EA57 /* pnglibconf.h */,
+				12C9AA18B0076D4866C777053C14EF66 /* ptra.h */,
+				33BCEDD0525954C43DE16051F2CB7998 /* publictypes.h */,
+				2B784B432CC782032D472FA364B0D56A /* queue.h */,
+				EF3248AD61B0D4C746B33711FC461E53 /* rbtree.h */,
+				35657680617A9271C426B43F77550E73 /* readbarcode.h */,
+				474DADA2DDBAD78C81EE0B768F12C6F2 /* recodebeam.h */,
+				4D34213CC5BF191FDB841ADFE2397AF6 /* recog.h */,
+				B0F5DE334081589C7D90D375AF6B2ABA /* RecognitionLanguage.swift */,
+				0E1A8F110E94625E2A197CA2FE278509 /* reconfig.h */,
+				CE726E724667A54A4CF1B5289E89F52A /* regutils.h */,
+				8EE30C45E8594023A9B566997A84D056 /* renderer.h */,
+				08CFF338FFF07E0252E62E3EF4EC5757 /* resultiterator.h */,
+				12E9843F1B876E111BF95BD59AB27C8A /* reversed.h */,
+				FAE1418B663E280C749B3F57353D4BD5 /* serialis.h */,
+				DCE692C1D29116B8DEC3DDA473753383 /* series.h */,
+				873B20668FE353644D5F68D3DE96C51B /* simddetect.h */,
+				EC7F4D8F7CD418D9AE9D047B3FDA7247 /* stack.h */,
+				199859770846E07A6BEC18B9C28658C7 /* static_shape.h */,
+				F89FF811F89CB76B1B30BF46DFB0A434 /* stridemap.h */,
+				36C1EAA73E958651F2EB7294B053A29B /* String+Extensions.swift */,
+				9512C50F67F94469A4D617192E90F7D8 /* stringcode.h */,
+				904555B57C5C577620785770C6AAA8B8 /* strngs.h */,
+				832EFA0EF7541385E54092A2698BD9D0 /* sudoku.h */,
+				FE3FB5881597F0831259BD5EDBDBEFBF /* SwiftyTesseract.h */,
+				36B3FDBD62C1A87A374B8B5544BF3A6C /* SwiftyTesseract.swift */,
+				D75AC70A08913CE02B86F9898380E62F /* SwiftyTesseractError.swift */,
+				2598D9CD18E807B7DF6DF34389453CCD /* tess_version.h */,
+				11E48DC5CAC54763FA466C13ED30A4CD /* tesscallback.h */,
+				77A5853E8BA7C03AE89746587A780450 /* TesseractVariableName.swift */,
+				C5CFBC2C6DB1FA89B349265734D814E2 /* tfnetwork.h */,
+				6F7B8F8F4B7A9680DD2C9E7CF5DE577A /* thresholder.h */,
+				63521B6602C93BD99EEDDCE36D7C4480 /* tiff.h */,
+				E85CA84EC3F5FFBBEA331A3960D6F503 /* tiffconf.h */,
+				8A6C4B2DBD3D146A043B91D1280A2039 /* tiffio.h */,
+				7F71E1C305D7EA0F86B00D736DB17DE2 /* tiffvers.h */,
+				BACDB3FE3C0E1D1D1D4E3CDFA04D52E0 /* unichar.h */,
+				8947B122745AE62F8EAB5E8147E88CAD /* unicharcompress.h */,
+				A77DACDC80CEA4B433AD027EB35BF24D /* unicharmap.h */,
+				738CBB26D616B14262EA2D1B50805E6F /* unicharset.h */,
+				DF34D26044633A19B7EFE54A3D01F03D /* version.h */,
+				4117593033BA616EE62536DDA51253FB /* watershed.h */,
+				ED29FEF7F258A22E16E86771E06520D6 /* weightmatrix.h */,
+				81F3FCF30903B272FCA5C15C6388CB5D /* Frameworks */,
+				91A3E3ABE6D71EA3D66725CEE778B745 /* Support Files */,
+			);
+			name = SwiftyTesseract;
+			path = SwiftyTesseract;
+			sourceTree = "<group>";
+		};
+		6304817D53D8AF901C691FFEE3412182 /* WeScan */ = {
+			isa = PBXGroup;
+			children = (
+				49FF06C78714EA34A302850C281BE6F1 /* Array+Utils.swift */,
+				A6D6C5D0031AFB73C9E3C54EDE9F3C17 /* AVCaptureVideoOrientation+Utils.swift */,
+				FC41A849E996939EADB513FDFCB095C7 /* CaptureSession.swift */,
+				AC86CC6DDE62AF1CD4AFC197371B836A /* CaptureSession+Orientation.swift */,
+				BD021B55CECA6449A14A5A18901BF487 /* CaptureSessionManager.swift */,
+				9B957D635089295717989A0A6BADFAF2 /* CGAffineTransform+Utils.swift */,
+				47536EB400C7A04DE62D586B37917535 /* CGPoint+Utils.swift */,
+				5FF36F4FBFEE95BF73978880BE2BE5F9 /* CGRect+Utils.swift */,
+				C24AACE8A3671A4D076129A9B203DBB4 /* CIImage+Utils.swift */,
+				C277933AFC868913F14367CD2730C721 /* CIRectangleDetector.swift */,
+				8585B8E32F155F73BA4AAB0C6B53DE7F /* EditScanCornerView.swift */,
+				AC1F10BDE66AFB6439A3E885FFF80B62 /* EditScanViewController.swift */,
+				DEA7473777C4E57DD94F1DAE21367EAD /* Error.swift */,
+				708F27FB5448359C36053D42B7461DFD /* ImageScannerController.swift */,
+				7E4BEE1A38B38490AF638563A5383B71 /* Quadrilateral.swift */,
+				62B05AF12E1E37904A32A0AC0E242490 /* QuadrilateralView.swift */,
+				99EAC90D3924E7FE1D54CB2F0C2C7289 /* RectangleFeaturesFunnel.swift */,
+				2E10F03AD59691B6A0E80EB972AAFED5 /* ReviewViewController.swift */,
+				546D1BF9FD8F858027B33F63FB60C326 /* ScannerViewController.swift */,
+				1A4ACDD7D171290FE8E9E48FC4AFB995 /* ShutterButton.swift */,
+				7F96BA4C226F42D22E01CD5695F9BAAB /* Transformable.swift */,
+				30B3681CD16E7685CC3454004AAE5DF5 /* UIImage+Orientation.swift */,
+				7C6E09BE5866F6A6FC55AC76150D4D22 /* UIImage+Utils.swift */,
+				0FA024A53EE252515ED23AAABF6955F4 /* VisionRectangleDetector.swift */,
+				433744FF929C4253A175CAD1043F58EE /* WeScan.h */,
+				4080CF7DDBCF88DAB3F7A79EC73E366C /* ZoomGestureController.swift */,
+				8D7FAAA1738A5F1C429A863F06B2EFD3 /* Resources */,
+				7A7C8AB1F0B4B3EED3C57FEB314B27F8 /* Support Files */,
+			);
+			name = WeScan;
+			path = WeScan;
+			sourceTree = "<group>";
+		};
+		7A7C8AB1F0B4B3EED3C57FEB314B27F8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A0A5A7D8A1B9C9FACA3C46A3BB58853 /* Info.plist */,
+				876C9549FA62E265E69F0E9D9FBBDB3D /* WeScan.modulemap */,
+				4808859932415DC24561BC34F2797DED /* WeScan.xcconfig */,
+				87162D6D61DFFD4F23620EB168E07FEE /* WeScan-dummy.m */,
+				96A8288DC5EF9EAC8CCF8BA32B710DFA /* WeScan-prefix.pch */,
+				12CA490200BE7047C7ED3CE0C8DD2576 /* WeScan-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WeScan";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				F0D70F29F2B56D1F1A24D422E58E05A9 /* Pods */,
+				91F09A883B3633054D303A7E95D55B4F /* Products */,
+				6243DB6A091CCCDDA2F0E0DA7ED5B8D2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81F3FCF30903B272FCA5C15C6388CB5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE8CB70060A1EB86B9636E00CCC6A2F4 /* libjpeg.a */,
+				F064D8B7AB252B8A55ECCCD958983C91 /* liblept.a */,
+				335ECE46D9D931B4D6CF6B506CEAAE2D /* libpng.a */,
+				1A3959631F00459266A29AECEE407E5C /* libtesseract.a */,
+				30B7BD2AF5A96C29B6B680ED2CC02FCB /* libtiff.a */,
+				B6347869941AD37D2B7C2F0BE52701FD /* libtiffxx.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D7FAAA1738A5F1C429A863F06B2EFD3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F7BF0B1E4A080458D75B5C38699F89C /* enhance.png */,
+				A09071EBA5BAB3D2B1937F7F6ADA8514 /* enhance@2x.png */,
+				AEAB9B9261E07796F8A26BF79CD140BC /* enhance@3x.png */,
+				3BB7FE9D3F91C21726D2D6A16C7C89B1 /* flash.png */,
+				D2EEFD1E8ECB3C5912275BDFFC7F3927 /* flash@2x.png */,
+				2401C1BD7F6999D41AE55BBB4AEE06A7 /* flash@3x.png */,
+				FAAC64AF9F9F0AD051E519EA576128F5 /* flashUnavailable.png */,
+				149C2806E18515C0ECC005BD4A51E5CC /* flashUnavailable@2x.png */,
+				B44783D8A0BADE1796BD6905050BF3BF /* flashUnavailable@3x.png */,
+				1E4C770D15BCDAD15BBF4A41341611BB /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		91A3E3ABE6D71EA3D66725CEE778B745 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C1F3C43AA5B202F9D0FD3A48E455027 /* Info.plist */,
+				F6C8BA86AFB5AB621639F4E70E58E895 /* SwiftyTesseract.modulemap */,
+				E6B6C7F68DB0B99A369CFAD31321FDBD /* SwiftyTesseract.xcconfig */,
+				320A7499A7B4EF8EDBB87D0B9165F17D /* SwiftyTesseract-dummy.m */,
+				BAEA3ED3ABDAC9D270B9BEAC4109F60F /* SwiftyTesseract-prefix.pch */,
+				D8EB03B719E22A77922BB75E7322FBE3 /* SwiftyTesseract-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyTesseract";
+			sourceTree = "<group>";
+		};
+		91F09A883B3633054D303A7E95D55B4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25D5EDCC03079ADE4C3245FC175178C5 /* Pods_WeAsk.framework */,
+				9AB1BA98FFA57AFC49B8948D5F2DA745 /* Pods_WeAskTests.framework */,
+				7F1930D55028D594C9AA9FB115B9CDD6 /* Pods_WeAskUITests.framework */,
+				8541163D2B9F2252B6B1A194790E810C /* SwiftyTesseract.framework */,
+				4AA88CF24144679A18176961759BF117 /* WeScan.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B457918FC3574A9CB265D046C001E969 /* Pods-WeAsk */ = {
+			isa = PBXGroup;
+			children = (
+				86609FBCC3AED2C2CAB1E78283DD738A /* Info.plist */,
+				5DDC8CA19AF457943EEF5C9D0F5CCFB2 /* Pods-WeAsk.modulemap */,
+				44170E1A9F9EF6CC91BA48EA6510247B /* Pods-WeAsk-acknowledgements.markdown */,
+				24B807B8C40435171AD8B11ACA916706 /* Pods-WeAsk-acknowledgements.plist */,
+				352C37D628C3DE83B7F5BF2084D656F1 /* Pods-WeAsk-dummy.m */,
+				FE7E1259019D6517CBF6D29AB0FF99F4 /* Pods-WeAsk-frameworks.sh */,
+				A85A27DA9CC8ABB8217578BEDC17916A /* Pods-WeAsk-resources.sh */,
+				5A0D5E68A5F7DB28EBC35320139A6473 /* Pods-WeAsk-umbrella.h */,
+				10364B3AC2FAD4BBA3FB5BDAEA5D24AB /* Pods-WeAsk.debug.xcconfig */,
+				0F531D2F58390DF2442F59362EBB7755 /* Pods-WeAsk.release.xcconfig */,
+			);
+			name = "Pods-WeAsk";
+			path = "Target Support Files/Pods-WeAsk";
+			sourceTree = "<group>";
+		};
+		F0D70F29F2B56D1F1A24D422E58E05A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62C8EF25067CBE915EC9F30E86CC2615 /* SwiftyTesseract */,
+				6304817D53D8AF901C691FFEE3412182 /* WeScan */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1CE9C75D297E1ABFF23F39D5AEB3AD37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F458612816A68803BE04A3BE1FF03B8 /* Pods-WeAsk-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67043D97EC1D47C7DCE8B0EA75F0DA48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202AAF2EC501CF3DACE1A0F52B3AB257 /* Pods-WeAskUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75FAC800C044561CA76085F4B967571 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1921B61D2F93A2C87999DC9FB92AA526 /* WeScan-umbrella.h in Headers */,
+				70AB1EC17B98BC75D74A747C7DF10DEC /* WeScan.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73A29E785B13640D7DE5D169E7CAABE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A96583B8882FBBC2A35097305D01620 /* allheaders.h in Headers */,
+				AF6C3C32F96D68609A06DC26DE0D93FF /* alltypes.h in Headers */,
+				B00E471301B93D8A6405A387AA7A4376 /* apitypes.h in Headers */,
+				A58A4AEDBCC8FBA1A6E0365AD9A84E37 /* array.h in Headers */,
+				0E2F07C3306648538D1B8FA6A7D997EA /* arrayaccess.h in Headers */,
+				8221093990FC968BA4A51CBDB5593BAA /* baseapi.h in Headers */,
+				761DE696C633E0B06D55F3873E0F8102 /* basedir.h in Headers */,
+				6B33112E84847C899151F2095E658B9B /* bbuffer.h in Headers */,
+				3F5F211B1D73512E982790C03991D9B4 /* bilateral.h in Headers */,
+				0B51A4185364B04CD5246018F554ADD0 /* bmf.h in Headers */,
+				997C1332DA222396C2002DA1691E71BA /* bmfdata.h in Headers */,
+				C914162882945B1D3CF98FCA601D6525 /* bmp.h in Headers */,
+				B79C11FB6534C8CCCA7152F7FE4AC332 /* capi.h in Headers */,
+				9B24A9C129B43E77C6C0C4692A55A916 /* ccbord.h in Headers */,
+				7DDDCF987E7BFC05E4190EA4FDB47001 /* convolve.h in Headers */,
+				C03060947A4AD298A7C8DC1FEABAE84B /* ctc.h in Headers */,
+				33F3808CC19529DAC1CD26635E8D5025 /* dewarp.h in Headers */,
+				B057D6AC230F0BF738B8E23890F4AFD3 /* dotproductavx.h in Headers */,
+				07E1F3AFFE6EF7FD64312A50961D7D3D /* dotproductsse.h in Headers */,
+				3FC54E745580C7012C37494EBC8FF866 /* endianness.h in Headers */,
+				48945EE7058268FAFB90059291A65E30 /* environ.h in Headers */,
+				46BB573539FF917494DA68B168B024C7 /* errcode.h in Headers */,
+				F5E3FA744E8D8C463D754C1F279A61A5 /* fileerr.h in Headers */,
+				4F2F2D05E0134D854C14F04155350950 /* fullyconnected.h in Headers */,
+				8DDCCE0E836D05EC0C8343CF784E1E4F /* functions.h in Headers */,
+				742762E3CFCE7EF1C1EB2E95029216B7 /* genericvector.h in Headers */,
+				E7008ED307116AAC40661ADC81F979AC /* gplot.h in Headers */,
+				FBA42EDD58AA548C565B8C632BD82CB4 /* heap.h in Headers */,
+				CCC630F510068CBDF3109811220950B3 /* helpers.h in Headers */,
+				36EE3E6304C73F9B5CBAFE929A6E8BBE /* host.h in Headers */,
+				B7BFC4E4AF165DCD6D8922C9800B7B29 /* imageio.h in Headers */,
+				BC6A3D5E2204FDA9CF6B562AB0F8C1B4 /* input.h in Headers */,
+				9E0BA1B8F10BAD8C8A9D6323BB2F9CF7 /* intsimdmatrix.h in Headers */,
+				78DDF0FCA4EC680824B5901E1CB7695D /* intsimdmatrixavx2.h in Headers */,
+				85E7587CD8B7A8025FE739260ACFB44A /* intsimdmatrixsse.h in Headers */,
+				D96DD52941F3393606E9C95EA3685C05 /* jbclass.h in Headers */,
+				2B8885433A4DCF74233A2B20F179156D /* jconfig.h in Headers */,
+				08C4A199BFD5F7C173742FCEDD0976D6 /* jerror.h in Headers */,
+				BAAEFA9189C477A5390A80FF69592AAF /* jmorecfg.h in Headers */,
+				3E11D740AEA426DAD4E08785B1BF12D9 /* jpeglib.h in Headers */,
+				14DBFA38DBEE24DF27F6856FFB4A1AEE /* leptwin.h in Headers */,
+				0FE595B759E336834C11BFBE0A44B814 /* list.h in Headers */,
+				E62E4443FDAD9495978BF2776E5547AF /* lstm.h in Headers */,
+				ADCB258496094E8F1839A51AFE7D29CE /* lstmrecognizer.h in Headers */,
+				22007F6D0C3F7026929E1CACD2A5C978 /* lstmtrainer.h in Headers */,
+				39995E97D1297DCB6B618A24F4C0CCD2 /* ltrresultiterator.h in Headers */,
+				60A257DA2D052B1E533FCB15D76D48CA /* maxpool.h in Headers */,
+				9CC6EE1C52838CA5551C2F0AF29277D3 /* memry.h in Headers */,
+				4AB7A042B2DD8CDF0BDBA5C9318113B7 /* morph.h in Headers */,
+				B4D4BF3DC712BF5230D4D3F511D4EC1F /* ndminx.h in Headers */,
+				212382C7C2FD25CE62A5328A67DA317E /* network.h in Headers */,
+				8543D90B15F22959F28C9088C5C5A0AC /* networkbuilder.h in Headers */,
+				F2426C53836406DF9918697DD48223D7 /* networkio.h in Headers */,
+				82F1259F4D6D57C7C258176FB20EE6CA /* networkscratch.h in Headers */,
+				7BCBE4085A81394DE1612F936ACAE5EB /* ocrclass.h in Headers */,
+				93CACC6E13EE661FC3F861E12B86410E /* osdetect.h in Headers */,
+				693D8E572DB75DF6A5005B93057760D8 /* pageiterator.h in Headers */,
+				16537A0C79A3784A3A6A17699BABE362 /* parallel.h in Headers */,
+				753312DEF045F449CE0646CEA7C05897 /* params.h in Headers */,
+				477F83787FF1A395C0184038E58EB847 /* pix.h in Headers */,
+				090D40C3160EF763746A00ECD7E602FA /* platform.h in Headers */,
+				7870F6DA35D0E5173BBE129A890C3A57 /* plumbing.h in Headers */,
+				FA315891AF320BCC8206040FE03C3C9B /* png.h in Headers */,
+				98BD44AB4D1FFC51CCA52593830348B6 /* pngconf.h in Headers */,
+				035D47331A076A453312EFAE3B8D5E56 /* pnglibconf.h in Headers */,
+				A529DD8394E21F2B07470EB472F6275B /* ptra.h in Headers */,
+				A2E05E8112DF877CF3E781CA6515B69F /* publictypes.h in Headers */,
+				AB5BDDE51C903936F68F97515F5E4AF9 /* queue.h in Headers */,
+				1CF4CCE5DACC4F4DAC9601A784727957 /* rbtree.h in Headers */,
+				FA5807890088E3A90C17D35D0192CFFA /* readbarcode.h in Headers */,
+				37F7DE8051368C373B12E39778A5763B /* recodebeam.h in Headers */,
+				308E328C03D517F51A0E6C773776E93F /* recog.h in Headers */,
+				06AD9369597E1477ABCAD149067F7F09 /* reconfig.h in Headers */,
+				694D9C5474FE5D923D9E959660D4EDDC /* regutils.h in Headers */,
+				B19E8E0FF032AE7D0700132F315C0355 /* renderer.h in Headers */,
+				24444FB714947F168A1C1F083F1761C8 /* resultiterator.h in Headers */,
+				51A27E5B5B801665B53753C8501D0498 /* reversed.h in Headers */,
+				7BDCAE47BC5453DD617456376793267E /* serialis.h in Headers */,
+				95B6760CF4294BA34F51D0E78F51FD1B /* series.h in Headers */,
+				1442A5EC06FD27FCEBBE2D7103AEDD4B /* simddetect.h in Headers */,
+				BF46FE3D44A8DD01756CE36CB7949036 /* stack.h in Headers */,
+				A032BAD5D7C1B5FE3D6DCAA716E4D21C /* static_shape.h in Headers */,
+				D82A7F4EE9C0CE61A96AED9539F4C4FA /* stridemap.h in Headers */,
+				386A2D06575FF9C5FB494B5B05CEDB95 /* stringcode.h in Headers */,
+				7BD77613EC93CF4E9AD0A3954CC48A59 /* strngs.h in Headers */,
+				6131B0DA7E5540A6E4F07997651AF3B4 /* sudoku.h in Headers */,
+				812EC01C3600E0AF0DAD253FC55DD567 /* SwiftyTesseract-umbrella.h in Headers */,
+				E2663507DCBE273E912A86484F15E78E /* SwiftyTesseract.h in Headers */,
+				903B56389787B92536167A73DE276D59 /* tess_version.h in Headers */,
+				07A1761D17773674194AA6B7E35DAA7C /* tesscallback.h in Headers */,
+				CEF3F3381B5FF233A1944C62E943BEE4 /* tfnetwork.h in Headers */,
+				1A0CE1323B67CCA872A28ED6AD1A5AAF /* thresholder.h in Headers */,
+				54A3FC1C7EDFF39F9D9BC3FCE5B3D5B1 /* tiff.h in Headers */,
+				149ED017127ABDA013C7BE514F65C54C /* tiffconf.h in Headers */,
+				B88FAF19A2C7EF710E0EC04DD3F58668 /* tiffio.h in Headers */,
+				C2CCA761417DC742E40B251DD9630954 /* tiffvers.h in Headers */,
+				9DD7A9EB6FADD5D7D4F0901B453A882E /* unichar.h in Headers */,
+				9666CC274A20F4D2423CDB11DA01B68F /* unicharcompress.h in Headers */,
+				42B1E68C64D81FF495A538412F9997DA /* unicharmap.h in Headers */,
+				4F623C3E056118D9C82C56B30C08EF4C /* unicharset.h in Headers */,
+				B2EE9444D2621E6423B42971BAEAA7AE /* version.h in Headers */,
+				0D93A6E1836F081A0FAD268B45D3100F /* watershed.h in Headers */,
+				A25A58C824B8BE20554010908671DC2E /* weightmatrix.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6E0D32041F40ADD4F7213F023346D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605B3A4B27EAE3DCF6D6CF9E8333F14F /* Pods-WeAskTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19B1AEFD048CAD90D43588593AD80FC5 /* SwiftyTesseract */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30779962846D338EFEBD5297589C1617 /* Build configuration list for PBXNativeTarget "SwiftyTesseract" */;
+			buildPhases = (
+				F73A29E785B13640D7DE5D169E7CAABE /* Headers */,
+				EFEE617476EA1528FCD46CE5A8CDCA5B /* Sources */,
+				9BE3BD59113AE1F4FB56234BC8A18DFA /* Frameworks */,
+				5A94A960803F599E71DFB98B6F13F134 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyTesseract;
+			productName = SwiftyTesseract;
+			productReference = 8541163D2B9F2252B6B1A194790E810C /* SwiftyTesseract.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1FCC9CCA30FC5C346B1C09B5F37AC6EE /* WeScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BCAD500A6623EFCDE47A604723305B4 /* Build configuration list for PBXNativeTarget "WeScan" */;
+			buildPhases = (
+				E75FAC800C044561CA76085F4B967571 /* Headers */,
+				FBFDA3D229466B54B6B8382EE8330DCF /* Sources */,
+				A2ABA19BD76BE161EE9066C89EE35313 /* Frameworks */,
+				AAB833C1E31AB1A59307BFF9A51E0C74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeScan;
+			productName = WeScan;
+			productReference = 4AA88CF24144679A18176961759BF117 /* WeScan.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4897A1393F1CF987AC425F02D3AE9603 /* Pods-WeAskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 502FDEBB05AD7247969996714CC6EB30 /* Build configuration list for PBXNativeTarget "Pods-WeAskUITests" */;
+			buildPhases = (
+				67043D97EC1D47C7DCE8B0EA75F0DA48 /* Headers */,
+				B348FB968B302FA20A62D5DDC57E1CFD /* Sources */,
+				E4EDB813874DABA1140EE5AF75035E46 /* Frameworks */,
+				91ACD1D6563A626DC8B17B4DABADE380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46C8F2B7A1B1E56F4D88A710A62D9B1F /* PBXTargetDependency */,
+			);
+			name = "Pods-WeAskUITests";
+			productName = "Pods-WeAskUITests";
+			productReference = 7F1930D55028D594C9AA9FB115B9CDD6 /* Pods_WeAskUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		702B35981E3DA9AA144CFC688506CA48 /* Pods-WeAskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50C21DBECE65E13E38061D578A72F120 /* Build configuration list for PBXNativeTarget "Pods-WeAskTests" */;
+			buildPhases = (
+				FB6E0D32041F40ADD4F7213F023346D7 /* Headers */,
+				88BB4F5193BD51909970295BCDC151EE /* Sources */,
+				9F285F7979DDC3317CB2E38E021BA8D2 /* Frameworks */,
+				8C87ED55604A7BF7CC49A775B4464338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF526E3B967C10F3183A6A580FBC35CD /* PBXTargetDependency */,
+			);
+			name = "Pods-WeAskTests";
+			productName = "Pods-WeAskTests";
+			productReference = 9AB1BA98FFA57AFC49B8948D5F2DA745 /* Pods_WeAskTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A098C5A39790BE53BED184F97AE6CBDE /* Pods-WeAsk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5CF5D7B7B18452AC2104FD4CA4C4FA6 /* Build configuration list for PBXNativeTarget "Pods-WeAsk" */;
+			buildPhases = (
+				1CE9C75D297E1ABFF23F39D5AEB3AD37 /* Headers */,
+				D5D75C9AE56E99F77252AE4E1DA35091 /* Sources */,
+				A989B87BDBC4CAE437934FF84EDC90FC /* Frameworks */,
+				57BB11EAC230986B08F3BC268A9EE80B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2901906B1AEF85EDBCC9E89B6109D2F /* PBXTargetDependency */,
+				23578D2F1B45F3C50532E895173B1325 /* PBXTargetDependency */,
+			);
+			name = "Pods-WeAsk";
+			productName = "Pods-WeAsk";
+			productReference = 25D5EDCC03079ADE4C3245FC175178C5 /* Pods_WeAsk.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 91F09A883B3633054D303A7E95D55B4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A098C5A39790BE53BED184F97AE6CBDE /* Pods-WeAsk */,
+				702B35981E3DA9AA144CFC688506CA48 /* Pods-WeAskTests */,
+				4897A1393F1CF987AC425F02D3AE9603 /* Pods-WeAskUITests */,
+				19B1AEFD048CAD90D43588593AD80FC5 /* SwiftyTesseract */,
+				1FCC9CCA30FC5C346B1C09B5F37AC6EE /* WeScan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57BB11EAC230986B08F3BC268A9EE80B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A94A960803F599E71DFB98B6F13F134 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C87ED55604A7BF7CC49A775B4464338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91ACD1D6563A626DC8B17B4DABADE380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB833C1E31AB1A59307BFF9A51E0C74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453718FF5E6C40CAB3B0E4183C2C0EB0 /* enhance.png in Resources */,
+				2DF3DD0CE7784825A14B50E313F6CDEE /* enhance@2x.png in Resources */,
+				12E9CA5C113A5D007761CABAC7B5987E /* enhance@3x.png in Resources */,
+				15E2D3B4C74BD70DB43A96272835EEE1 /* flash.png in Resources */,
+				BA5FB52B7D48956625F1D1F1A96EDD77 /* flash@2x.png in Resources */,
+				3AD356D9723D3863F00EA10FEE93132A /* flash@3x.png in Resources */,
+				A22112B8E37BF068C095287CEDDEA995 /* flashUnavailable.png in Resources */,
+				C39071A2AFFD08A5860797CC7D8BE13D /* flashUnavailable@2x.png in Resources */,
+				32EB9A2B2BA26B4EF7EDDEADBA9C52E9 /* flashUnavailable@3x.png in Resources */,
+				EEE3D894C4E266A33E90687ED09AAA08 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88BB4F5193BD51909970295BCDC151EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745288592D9FCAEC6C78C81B56E7933B /* Pods-WeAskTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B348FB968B302FA20A62D5DDC57E1CFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CACD33BDAF783C323FB1C8E147F7DF /* Pods-WeAskUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D75C9AE56E99F77252AE4E1DA35091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06FB2D7E0A6D79B30BD2EBFE544E14F /* Pods-WeAsk-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEE617476EA1528FCD46CE5A8CDCA5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0309345D6A5C6108E33CAB174045E3 /* Bundle+pathToTrainedData.swift in Sources */,
+				7538ED9F304F4EC068017A74D83A7D64 /* EngineMode.swift in Sources */,
+				ADFD2517FB9772106D5E04F36D28DC35 /* LanguageStringConverter.swift in Sources */,
+				98F9D4A3A2AB4371E10E14C3CA246E89 /* RecognitionLanguage.swift in Sources */,
+				54D4D6DD7D2D0643D3B9004A1B66CB16 /* String+Extensions.swift in Sources */,
+				C2454CB7B2FFD829BFB143EC1F93F2A5 /* SwiftyTesseract-dummy.m in Sources */,
+				38D2A7555CBD8B7C56E4E0F721E55EDE /* SwiftyTesseract.swift in Sources */,
+				60DD3436B5929E4CCDC17F89E970558C /* SwiftyTesseractError.swift in Sources */,
+				2A9E76564B8C18636CA3037EE615AD42 /* TesseractVariableName.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFDA3D229466B54B6B8382EE8330DCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8718B5EBC21823E53BB2317DAFE9DD21 /* Array+Utils.swift in Sources */,
+				C7CC86628E2E9FFE2A0D1F18E3092086 /* AVCaptureVideoOrientation+Utils.swift in Sources */,
+				7030D4403F37ED135E34ECC53742F094 /* CaptureSession+Orientation.swift in Sources */,
+				07B54E04EA2D8E556B230A9E967CB1EC /* CaptureSession.swift in Sources */,
+				1AC45D08F3D9E1BB27FFB92302BD1106 /* CaptureSessionManager.swift in Sources */,
+				BC0112B52DB4A60681C3545677CA3D38 /* CGAffineTransform+Utils.swift in Sources */,
+				178A96D633D04850EF36383535E76E9F /* CGPoint+Utils.swift in Sources */,
+				D5B6B8ADDEA3A6E02098DD0A5927352A /* CGRect+Utils.swift in Sources */,
+				0BEB8208384CCAF53F7816E30FFDB7AF /* CIImage+Utils.swift in Sources */,
+				3F88F705A265FF3D42BB30BF470343FA /* CIRectangleDetector.swift in Sources */,
+				DD2FA148C987C3AFBC204A46DA6AC828 /* EditScanCornerView.swift in Sources */,
+				E60FFDD020A11C75E52DC8AE636C7DCC /* EditScanViewController.swift in Sources */,
+				714C5E758A87FEFACDA078398FF298A1 /* Error.swift in Sources */,
+				338798901331B4930D9FC2620CE8F34E /* ImageScannerController.swift in Sources */,
+				FB942D869D57778F98B3DE5FD0D925CB /* Quadrilateral.swift in Sources */,
+				5198DCAFB710F3F96AC54BF9217B0951 /* QuadrilateralView.swift in Sources */,
+				698A0C2E2795EF908727FC8B7C64003F /* RectangleFeaturesFunnel.swift in Sources */,
+				E221C555EA1F8D40CDF085DD72B2C771 /* ReviewViewController.swift in Sources */,
+				A27A1792733A9F9BF5F32F4F52C2DADB /* ScannerViewController.swift in Sources */,
+				7CE928676C5C99FB873514C8E4A2E123 /* ShutterButton.swift in Sources */,
+				02C03EBA18754E57DD9AE10BBAB10CAB /* Transformable.swift in Sources */,
+				E23D1836ED14C1B02EBB8C200B581993 /* UIImage+Orientation.swift in Sources */,
+				4BACE16F1529E607D24A98ADDCC2AD46 /* UIImage+Utils.swift in Sources */,
+				81976E2679115C3C9DCC4001DD8F504B /* VisionRectangleDetector.swift in Sources */,
+				24AE9CFCCA48760E9ED0D1F9DE7F1F1B /* WeScan-dummy.m in Sources */,
+				F941B7B97E12162CD07035846AF2391D /* ZoomGestureController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23578D2F1B45F3C50532E895173B1325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WeScan;
+			target = 1FCC9CCA30FC5C346B1C09B5F37AC6EE /* WeScan */;
+			targetProxy = 43796A12A1C7A864826BE7DEBB9C4DF0 /* PBXContainerItemProxy */;
+		};
+		46C8F2B7A1B1E56F4D88A710A62D9B1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WeAsk";
+			target = A098C5A39790BE53BED184F97AE6CBDE /* Pods-WeAsk */;
+			targetProxy = 5FEDB9FCC32FF7EF11CA283E54C17BCC /* PBXContainerItemProxy */;
+		};
+		C2901906B1AEF85EDBCC9E89B6109D2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyTesseract;
+			target = 19B1AEFD048CAD90D43588593AD80FC5 /* SwiftyTesseract */;
+			targetProxy = 8E08473A3CD7B2EBE52D39E202918F64 /* PBXContainerItemProxy */;
+		};
+		DF526E3B967C10F3183A6A580FBC35CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WeAsk";
+			target = A098C5A39790BE53BED184F97AE6CBDE /* Pods-WeAsk */;
+			targetProxy = 2BDB70FB5FFB1A77969A8E13C24CC71C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E4C770D15BCDAD15BBF4A41341611BB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41D2F8465C3F7760B1190DDCA79C4F27 /* Localizable.strings */,
+				CFFC5EA9A52878F83DC6208B366CE3B6 /* Localizable.strings */,
+				2469FF5BD4F9BAE6A3EB092103EC40E2 /* Localizable.strings */,
+				CBF702D29A3FF79C70580543A0BB14D9 /* Localizable.strings */,
+				A822602D0246228E9A165B6B5FEFDF28 /* Localizable.strings */,
+				A61FB600450071A63E90440E787AA191 /* Localizable.strings */,
+			);
+			name = Localizable.strings;
+			path = WeScan;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AA3B91655AF95B1F49159CD8085CD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		22881862280DF03C714A0C3EE6519355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D72D8252A539CB6BEAF80D1A363B6B /* Pods-WeAskUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeAskUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeAskUITests/Pods-WeAskUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		439AE73674FF7C1D5A252A7B53FD0048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6B6C7F68DB0B99A369CFAD31321FDBD /* SwiftyTesseract.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyTesseract/SwiftyTesseract-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyTesseract/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyTesseract/SwiftyTesseract.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyTesseract;
+				PRODUCT_NAME = SwiftyTesseract;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		777CE5546DBCD7B4D3098B29D745636C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4808859932415DC24561BC34F2797DED /* WeScan.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WeScan/WeScan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WeScan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WeScan/WeScan.modulemap";
+				PRODUCT_MODULE_NAME = WeScan;
+				PRODUCT_NAME = WeScan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8000995DA02063BF3777393CD52061DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		80E5354C9857C0242544A85214F3A71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6B6C7F68DB0B99A369CFAD31321FDBD /* SwiftyTesseract.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyTesseract/SwiftyTesseract-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyTesseract/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyTesseract/SwiftyTesseract.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyTesseract;
+				PRODUCT_NAME = SwiftyTesseract;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A863E2F4AC66F08C37F9906DFCD8748D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4808859932415DC24561BC34F2797DED /* WeScan.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WeScan/WeScan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WeScan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WeScan/WeScan.modulemap";
+				PRODUCT_MODULE_NAME = WeScan;
+				PRODUCT_NAME = WeScan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDCD8D50681A0FDC060EEC83CB597E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E3324CBD868F60E53F62EEE287220AB /* Pods-WeAskTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeAskTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeAskTests/Pods-WeAskTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D536A6D9F8275907B778A3F1B2B0D6C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F531D2F58390DF2442F59362EBB7755 /* Pods-WeAsk.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeAsk/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeAsk/Pods-WeAsk.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED02559E9865D46D1068405482C4FAE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10364B3AC2FAD4BBA3FB5BDAEA5D24AB /* Pods-WeAsk.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeAsk/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeAsk/Pods-WeAsk.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE0E3B452613FA746B54EFF76F42E105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 301AD95CAA60D21669D6B0C974A90193 /* Pods-WeAskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeAskTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeAskTests/Pods-WeAskTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F062A70D5CD6DFC510F325838FBFFE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88841DB6D92B5D9DCF26689F3F6C1B14 /* Pods-WeAskUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeAskUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeAskUITests/Pods-WeAskUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA3B91655AF95B1F49159CD8085CD89 /* Debug */,
+				8000995DA02063BF3777393CD52061DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30779962846D338EFEBD5297589C1617 /* Build configuration list for PBXNativeTarget "SwiftyTesseract" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439AE73674FF7C1D5A252A7B53FD0048 /* Debug */,
+				80E5354C9857C0242544A85214F3A71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		502FDEBB05AD7247969996714CC6EB30 /* Build configuration list for PBXNativeTarget "Pods-WeAskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22881862280DF03C714A0C3EE6519355 /* Debug */,
+				F062A70D5CD6DFC510F325838FBFFE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50C21DBECE65E13E38061D578A72F120 /* Build configuration list for PBXNativeTarget "Pods-WeAskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDCD8D50681A0FDC060EEC83CB597E38 /* Debug */,
+				EE0E3B452613FA746B54EFF76F42E105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BCAD500A6623EFCDE47A604723305B4 /* Build configuration list for PBXNativeTarget "WeScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A863E2F4AC66F08C37F9906DFCD8748D /* Debug */,
+				777CE5546DBCD7B4D3098B29D745636C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5CF5D7B7B18452AC2104FD4CA4C4FA6 /* Build configuration list for PBXNativeTarget "Pods-WeAsk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED02559E9865D46D1068405482C4FAE2 /* Debug */,
+				D536A6D9F8275907B778A3F1B2B0D6C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

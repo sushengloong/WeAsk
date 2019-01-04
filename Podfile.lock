@@ -1,0 +1,28 @@
+PODS:
+  - SwiftyTesseract (2.0.1)
+  - WeScan (0.9.2)
+
+DEPENDENCIES:
+  - SwiftyTesseract (~> 2.0)
+  - WeScan (from `https://github.com/WeTransfer/WeScan.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftyTesseract
+
+EXTERNAL SOURCES:
+  WeScan:
+    :git: https://github.com/WeTransfer/WeScan.git
+
+CHECKOUT OPTIONS:
+  WeScan:
+    :commit: 99ad11607f91d10850a92c35de92d3e7f3d6d231
+    :git: https://github.com/WeTransfer/WeScan.git
+
+SPEC CHECKSUMS:
+  SwiftyTesseract: f0e6b1b3036af44c01b9ba488463305b196106a6
+  WeScan: 3d6f92d053f40719c48592b271b157d2015237df
+
+PODFILE CHECKSUM: 22ae665f861ac2e8b4d7ce5351692e196da5b3ed
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module Pods_WeAsk {
+  umbrella header "Pods-WeAsk-umbrella.h"
+
+  export *
+  module * { export * }
+}
