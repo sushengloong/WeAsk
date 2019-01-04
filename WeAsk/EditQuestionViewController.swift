@@ -3,6 +3,7 @@ import UIKit
 class EditQuestionViewController: UIViewController {
     
     @IBOutlet weak var questionTextView: UITextView!
+    var scannerDelegate: ScannerDelegate?
     var question:String = ""
 
     override func viewDidLoad() {
@@ -14,7 +15,7 @@ class EditQuestionViewController: UIViewController {
     }
     
     @IBAction func onSaveButtonTapped(_ sender: UIBarButtonItem) {
-        print(questionTextView.text)
+        scannerDelegate?.addQuestion(questionTextView.text!)
         self.dismiss(animated: true)
     }
 

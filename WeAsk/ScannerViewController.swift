@@ -2,8 +2,13 @@ import UIKit
 import WeScan
 import SwiftyTesseract
 
+protocol ScannerDelegate {
+    func addQuestion(_ question: String)
+}
+
 class ScannerViewController: UIViewController {
     
+    @IBOutlet weak var questionsTableView: UITableView!
     var questions: [String] = []
 
     override func viewDidLoad() {
@@ -15,6 +20,13 @@ class ScannerViewController: UIViewController {
         let scannerVC = ImageScannerController()
         scannerVC.imageScannerDelegate = self
         present(scannerVC, animated: true)
+    }
+}
+
+extension ScannerViewController: ScannerDelegate {
+    func addQuestion(_ question: String) {
+        questions.append(question)
+        questionsTableView.reloadData()
     }
 }
 
@@ -42,6 +54,7 @@ extension ScannerViewController: ImageScannerControllerDelegate {
                 let editQuestionVC = UIStoryboard(name: "Main", bundle: nil)
                     .instantiateViewController(withIdentifier: "EditQuestionVC") as! EditQuestionViewController
                 editQuestionVC.question = question
+                editQuestionVC.scannerDelegate = self
                 self.present(editQuestionVC, animated: true)
             })
         }
