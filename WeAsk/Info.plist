@@ -2,6 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>fonts/Merriweather-Black.ttf</string>
+		<string>fonts/Merriweather-BlackItalic.ttf</string>
+		<string>fonts/Merriweather-Bold.ttf</string>
+		<string>fonts/Merriweather-BoldItalic.ttf</string>
+		<string>fonts/Merriweather-Italic.ttf</string>
+		<string>fonts/Merriweather-Light.ttf</string>
+		<string>fonts/Merriweather-LightItalic.ttf</string>
+		<string>fonts/Merriweather-Regular.ttf</string>
+	</array>
 	<key>NSCameraUsageDescription</key>
 	<string>To scan questions</string>
 	<key>CFBundleDevelopmentRegion</key>

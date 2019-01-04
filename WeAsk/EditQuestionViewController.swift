@@ -9,6 +9,7 @@ class EditQuestionViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        questionTextView.textContainerInset = UIEdgeInsets(top: 16, left: 8, bottom: 8, right: 16)
         questionTextView?.text = question
     }
     
