@@ -1,6 +1,6 @@
 import UIKit
 
-class EditQuestionViewController: UIViewController {
+class EditQuestionViewController: UIViewController, UITextViewDelegate {
     
     @IBOutlet weak var questionTextView: UITextView!
     var scannerDelegate: ScannerDelegate?
@@ -10,8 +10,17 @@ class EditQuestionViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        questionTextView.delegate = self
         questionTextView.textContainerInset = UIEdgeInsets(top: 16, left: 8, bottom: 8, right: 16)
         questionTextView?.text = question
+    }
+    
+    func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
+        if (text == "\n") {
+            textView.endEditing(true)
+            return false
+        }
+        return true
     }
     
     @IBAction func onSaveButtonTapped(_ sender: UIBarButtonItem) {

@@ -75,13 +75,21 @@ extension ScannerViewController: ScannerDelegate {
     }
 }
 
-extension ScannerViewController: UITableViewDataSource {
+extension ScannerViewController: UITableViewDataSource, UITableViewDelegate, QuestionCellDeleteButtonDelegate {
+    func deleteTapped(at index: IndexPath) {
+        questions.remove(at: index.row)
+        saveCards()
+        questionsTableView.reloadData()
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return questions.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "QuestionCell", for: indexPath) as! QuestionTableViewCell
+        cell.delegate = self
+        cell.indexPath = indexPath
         cell.questionTextView.text = questions[indexPath.row]
         return cell
     }

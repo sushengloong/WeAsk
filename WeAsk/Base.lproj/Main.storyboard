@@ -48,15 +48,32 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ypy-Co-2bg">
-                                                    <rect key="frame" x="0.0" y="3" width="375" height="93"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ypy-Co-2bg">
+                                                    <rect key="frame" x="0.0" y="0.0" width="293" height="99.5"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="293" id="Oud-rG-ce0"/>
+                                                    </constraints>
                                                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" name="Merriweather-Light" family="Merriweather" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tx7-h2-BbZ">
+                                                    <rect key="frame" x="301" y="33" width="53" height="34"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <state key="normal" title="Delete"/>
+                                                    <connections>
+                                                        <action selector="deleteTapped:" destination="UkV-8D-X3W" eventType="touchUpInside" id="4PS-kh-Es7"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="ypy-Co-2bg" firstAttribute="centerY" secondItem="Tx7-h2-BbZ" secondAttribute="centerY" id="X5N-5l-5Bt"/>
+                                                <constraint firstItem="ypy-Co-2bg" firstAttribute="leading" secondItem="BJ3-rX-w11" secondAttribute="leading" id="Yt6-2A-5fY"/>
+                                                <constraint firstItem="ypy-Co-2bg" firstAttribute="centerY" secondItem="BJ3-rX-w11" secondAttribute="centerY" id="cPl-Ag-foE"/>
+                                                <constraint firstItem="Tx7-h2-BbZ" firstAttribute="leading" secondItem="ypy-Co-2bg" secondAttribute="trailing" constant="8" symbolic="YES" id="gyV-Tx-rXa"/>
+                                                <constraint firstItem="ypy-Co-2bg" firstAttribute="top" secondItem="BJ3-rX-w11" secondAttribute="top" id="sQl-xI-SHV"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="questionTextView" destination="ypy-Co-2bg" id="96b-Xy-Df4"/>

@@ -8,9 +8,16 @@
 
 import UIKit
 
+protocol QuestionCellDeleteButtonDelegate{
+    func deleteTapped(at index:IndexPath)
+}
+
 class QuestionTableViewCell: UITableViewCell {
 
     @IBOutlet weak var questionTextView: UITextView!
+    
+    var delegate: QuestionCellDeleteButtonDelegate!
+    var indexPath: IndexPath!
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -23,4 +30,8 @@ class QuestionTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+    @IBAction func deleteTapped(_ sender: Any) {
+        self.delegate?.deleteTapped(at: indexPath)
+    }
+    
 }
