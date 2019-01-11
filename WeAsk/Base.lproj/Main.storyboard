@@ -67,9 +67,8 @@
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="eh2-jO-X2K"/>
                                 </connections>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Emf-4s-09w">
-                                <rect key="frame" x="0.0" y="601" width="375" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Emf-4s-09w">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="32"/>
                                 <state key="normal" title="Scan"/>
                                 <connections>
@@ -78,6 +77,11 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Emf-4s-09w" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Xcl-w8-bMD"/>
+                            <constraint firstItem="Emf-4s-09w" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="d9q-aR-QtL"/>
+                            <constraint firstItem="Emf-4s-09w" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tlR-qh-fLT"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
@@ -144,7 +148,7 @@
         <!--Questions View Controller-->
         <scene sceneID="30W-I7-PgE">
             <objects>
-                <viewController storyboardIdentifier="QuestionsVC" id="OtT-hv-tww" customClass="QuestionsViewController" customModule="AskAnything" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QuestionsVC" id="OtT-hv-tww" customClass="QuestionsViewController" customModule="WeAsk" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9bp-C7-LMz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

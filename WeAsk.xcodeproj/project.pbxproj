@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E1B598D21E86BB900CC6AAD /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B598C21E86BB900CC6AAD /* Question.swift */; };
 		1E60CBC321DF21EA00683502 /* EditQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E60CBC221DF21EA00683502 /* EditQuestionViewController.swift */; };
 		1E6A85C021DF491500BEC4FE /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 1E6A85BE21DF445900BEC4FE /* fonts */; };
 		1E6A85C221DF4DE600BEC4FE /* QuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6A85C121DF4DE600BEC4FE /* QuestionTableViewCell.swift */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		0ADBF41101C6BF33DE94E869 /* Pods-WeAsk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeAsk.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeAsk/Pods-WeAsk.release.xcconfig"; sourceTree = "<group>"; };
+		1E1B598C21E86BB900CC6AAD /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		1E60CBC221DF21EA00683502 /* EditQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditQuestionViewController.swift; sourceTree = "<group>"; };
 		1E6A85BE21DF445900BEC4FE /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		1E6A85C121DF4DE600BEC4FE /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				1EDAD87921DC3B3800A1CB67 /* Info.plist */,
 				1E60CBC221DF21EA00683502 /* EditQuestionViewController.swift */,
 				1E6A85C121DF4DE600BEC4FE /* QuestionTableViewCell.swift */,
+				1E1B598C21E86BB900CC6AAD /* Question.swift */,
 			);
 			path = WeAsk;
 			sourceTree = "<group>";
@@ -419,6 +422,7 @@
 				1EDAD87021DC3B3700A1CB67 /* ScannerViewController.swift in Sources */,
 				1E6A85C421DF557D00BEC4FE /* QuestionsViewController.swift in Sources */,
 				1E6A85C221DF4DE600BEC4FE /* QuestionTableViewCell.swift in Sources */,
+				1E1B598D21E86BB900CC6AAD /* Question.swift in Sources */,
 				1EDAD86E21DC3B3700A1CB67 /* AppDelegate.swift in Sources */,
 				1E60CBC321DF21EA00683502 /* EditQuestionViewController.swift in Sources */,
 			);
